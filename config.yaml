@@ -1,0 +1,109 @@
+baseURL: "https://frankdoka.com"
+languageCode: en-us
+title: Frank Doka
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: 
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Frank Doka"
+    subtitle: Hello Test Test, I'm Frank Doka - A Systems Engineer located in New York City. In August of 2023 I obtained my AWS associate-level Solutions Architect certifications. I have over 6 years of experience in the public sector working for the City of New York as a Systems Administrator.
+    imageUrl: "home/formal-pic-small.png"
+    imageWidth: 220
+    imageHeight: 220
+    buttons:
+        - name: Resume
+     #   url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:fdoka00@gmail.com"
+    - name: "github"
+      url: ""
+    - name: "cv"
+      url: ""
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+deployment:
+  targets:
+    - name: frankdoka.com
+      URL: 's3://frankdoka.com?region=us-east-1'
+      cloudFrontDistributionID: 'E3277YOQ3YWDYR'
+  matchers:
+    - pattern: ^.+\.(js|css|png|jpg|gif|svg|ttf)$
+      cacheControl: 'max-age=630720000, no-transform, public'
+      gzip: true
+    - pattern: ^.+\.(html|xml|json)$
+      gzip: true
