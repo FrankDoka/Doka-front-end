@@ -49,7 +49,7 @@ params:
   profileMode:
     enabled: true
     title: "Frank Doka"
-    subtitle: Hello Test Test, I'm Frank Doka - A Systems Engineer located in New York City. In August of 2023 I obtained my AWS associate-level Solutions Architect certifications. I have over 6 years of experience in the public sector working for the City of New York as a Systems Administrator.
+    subtitle: Hello Testing, I'm Frank Doka - A Systems Engineer located in New York City. In August of 2023 I obtained my AWS associate-level Solutions Architect certifications. I have over 6 years of experience in the public sector working for the City of New York as a Systems Administrator.
     imageUrl: "home/formal-pic-small.png"
     imageWidth: 220
     imageHeight: 220
