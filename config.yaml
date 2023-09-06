@@ -25,6 +25,10 @@ menu:
       name: Search
       url: /search
       weight: 50
+    - identifier: visitors
+      name: Visitors
+      url: /visitors
+      weight: 60
     # - identifier: tags
     #   name: Tags
     #   url: /tags

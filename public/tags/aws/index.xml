@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>AWS on Frank Doka</title><link>https://frankdoka.com/tags/aws/</link><description>Recent content in AWS on Frank Doka</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://frankdoka.com/tags/aws/index.xml" rel="self" type="application/rss+xml"/><item><title>I passed the AWS SAA Certification Exam</title><link>https://frankdoka.com/blog/aws-saa-certification/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frankdoka.com/blog/aws-saa-certification/</guid><description>How I passed the AWS Solutions Architect-Associate Certification Exam</description></item><item><title>Fank Doka - Project One</title><link>https://frankdoka.com/projects/frank-doka-project-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frankdoka.com/projects/frank-doka-project-1/</guid><description>Put Description Here</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AWS on Frank Doka</title>
+    <link>https://frankdoka.com/tags/aws/</link>
+    <description>Recent content in AWS on Frank Doka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://frankdoka.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I passed the AWS SAA Certification Exam</title>
+      <link>https://frankdoka.com/blog/aws-saa-certification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/blog/aws-saa-certification/</guid>
+      <description>How I passed the AWS Solutions Architect-Associate Certification Exam</description>
+    </item>
+    
+    <item>
+      <title>Fank Doka - Project One</title>
+      <link>https://frankdoka.com/projects/frank-doka-project-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/projects/frank-doka-project-1/</guid>
+      <description>Put Description Here</description>
+    </item>
+    
+  </channel>
+</rss>
