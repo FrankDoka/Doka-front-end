@@ -1,0 +1,10 @@
+         
+  <article>     
+         <script>
+              fetch('https://jrks148all.execute-api.us-east-1.amazonaws.com/incrementViewCount')
+                  .then((response => response.json()))  
+                  .then((data) => {document.getElementById("counter").innerHTML = data})                                
+            </script>
+            <p class="subDetails">You are visitor number <span id="counter">loading...</span></p> 
+            <p></p>
+</article>
