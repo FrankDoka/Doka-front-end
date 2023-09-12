@@ -1,11 +1,12 @@
 ---
 title: "NYC Department of Correction"
-description: "NYC"
-dateString: "2017-2022"
+dateString: "2016-2022"
 draft: false
-tags: ["Python"]
+tags: ["Powershell", "SCCM", "Virtual", "Active Directory"]
 showToc: false
 weight: 301
+cover:
+    image: "images/cover.png"
 --- 
 
 ### Description
@@ -22,7 +23,7 @@ weight: 301
 
 - Troubleshoot application systems and provide end-user support and problem resolution.
 
-- Lead large scale migration from Windows XP / 7 to windows 10 + office 365 environemnt – planning, designing, implementing, doitt etc
+- Led a team in designing and implemented custom OS imaging solutions and performing mail migration to Office 365 as part of a large-scale migration of 10,000+ devices from Windows XP, 7 to Windows 10.
 
 
 ![](images/img1.png#center)
