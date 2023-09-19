@@ -48,4 +48,15 @@ It offers an exceptional opportunity to showcase your expertise to prospective e
 
 15. **Blog Post Integration:** Include a link to a concise blog post within your resume text. This post should highlight key learnings and experiences gained throughout the project.
 
+## Phase 1: Creating AWS Accounts and Organization ##
+
+## Phase 2: Creating the Website Frontend  ##
+
+## Phase 3: ##
+
+## Phase 4: ##
+
+## Phase 5: ##
+
+
 

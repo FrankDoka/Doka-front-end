@@ -1,5 +1,5 @@
 ---
-title: "API backend continuation and frontend integration"
+title: "API Backend continuation and Frontend integration"
 description: "Integrating our website frontend and our backend services to create an example visitor counter stat."
 dateString: September 2023
 draft: false
