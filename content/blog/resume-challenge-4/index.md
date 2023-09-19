@@ -11,7 +11,7 @@ cover:
 
 # API Backend Continuation and Front-End Integration
 
-we continued our exploration of the API backend and initiated the crucial integration between the front end and back end. Let's dive into the details of our progress:
+We continued our exploration of the API backend and initiated the crucial integration between the front end and back end. Let's dive into the details of our progress:
 
 ## API Creation and Testing
 
