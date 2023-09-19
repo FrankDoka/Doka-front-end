@@ -14,6 +14,12 @@
     padding: 12px 0;
 }
 
+.profileText {
+    padding: 5px 0;
+    text-align: left;
+    white-space: normal
+}
+
 .profile img {
     display: inline-table;
     border-radius: 50%;

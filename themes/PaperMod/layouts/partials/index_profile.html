@@ -17,18 +17,17 @@
                 {{ else if .imageWidth }}
                     {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
                 {{ else }}
-                    {{- $img = $img.Resize "150x150" }}
+                    {{- $img = $img.Resize "50x50" }}
                 {{- end }}
             {{- end }}
             <img src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}"
-                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+                height="{{ .imageHeight | default 50 }}" width="{{ .imageWidth | default 50 }}" />
         {{- else }}
         <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+            height="{{ .imageHeight | default 50 }}" width="{{ .imageWidth | default 50 }}" />
         {{- end }}
         {{- end }}
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
+        <div class="profileText"><span>{{ .subtitle | markdownify }}</span></div>
         {{- partial "social_icons.html" site.Params.socialIcons -}}
 
         {{- with .buttons }}

@@ -2,7 +2,7 @@
 title: "NYC Police Department"
 dateString: "2015-2016"
 draft: false
-tags: ["Powershell", "SCCM", "Virtual", "Active Directory"]
+tags: ["Support", "Virtual", "Active Directory"]
 showToc: false
 weight: 500
 cover:
@@ -12,10 +12,10 @@ cover:
 ### Description
 
 - Provided IT technical support and remote assistance to end-users for computer operational and various
-peripheral equipment, resolving 1500+ support tickets
+peripheral equipment, resolving 1500+ support tickets<br><br>
 
 - Assigned and delegated various computer operational work to other technical units and ensured satisfactory
-completion of tasks.
+completion of tasks.<br><br>
 
 - Collaborate with IT teams to ensure timely and effective resolution of technical issues and incidents.
 

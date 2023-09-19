@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SCCM on Frank Doka</title>
+    <link>https://frankdoka.com/tags/sccm/</link>
+    <description>Recent content in SCCM on Frank Doka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://frankdoka.com/tags/sccm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NYC Department of Correction</title>
+      <link>https://frankdoka.com/experience/frank-doka-experience-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/experience/frank-doka-experience-1/</guid>
+      <description>Description Develop and lead large multifunctional system activities including managing, creating and deploying application programs and packages with Microsoft System Center Configuration Manager and Microsoft Deployment Toolkit.
+Conduct application testing to validate codebase and remediate issues discovered through performance and security testing.
+Install, configure, troubleshoot, document and proactively maintain physical and virtual servers, systems and applications using VMWare and Hyper-V.
+Monitor, deploy and maintain server and desktop workstation patches and upgrades.</description>
+    </item>
+    
+    <item>
+      <title>NYC Police Department</title>
+      <link>https://frankdoka.com/experience/frank-doka-experience-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/experience/frank-doka-experience-2/</guid>
+      <description>Description Provided IT technical support and remote assistance to end-users for computer operational and various peripheral equipment, resolving 1500+ support tickets
+Assigned and delegated various computer operational work to other technical units and ensured satisfactory completion of tasks.
+Collaborate with IT teams to ensure timely and effective resolution of technical issues and incidents.</description>
+    </item>
+    
+  </channel>
+</rss>

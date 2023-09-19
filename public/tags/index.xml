@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://frankdoka.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Active Directory</title>
+      <link>https://frankdoka.com/tags/active-directory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/tags/active-directory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AWS</title>
       <link>https://frankdoka.com/tags/aws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -25,11 +34,11 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://frankdoka.com/tags/python/</link>
+      <title>Powershell</title>
+      <link>https://frankdoka.com/tags/powershell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://frankdoka.com/tags/python/</guid>
+      <guid>https://frankdoka.com/tags/powershell/</guid>
       <description></description>
     </item>
     
@@ -43,11 +52,20 @@
     </item>
     
     <item>
-      <title>Solutions Architect</title>
-      <link>https://frankdoka.com/tags/solutions-architect/</link>
+      <title>SCCM</title>
+      <link>https://frankdoka.com/tags/sccm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://frankdoka.com/tags/solutions-architect/</guid>
+      <guid>https://frankdoka.com/tags/sccm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual</title>
+      <link>https://frankdoka.com/tags/virtual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/tags/virtual/</guid>
       <description></description>
     </item>
     

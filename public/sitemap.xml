@@ -10,6 +10,10 @@
   </url><url>
     <loc>https://frankdoka.com/stats/visitor-count/</loc>
   </url><url>
+    <loc>https://frankdoka.com/experience/frank-doka-experience-2/</loc>
+  </url><url>
+    <loc>https://frankdoka.com/tags/active-directory/</loc>
+  </url><url>
     <loc>https://frankdoka.com/tags/aws/</loc>
   </url><url>
     <loc>https://frankdoka.com/blog/</loc>
@@ -22,18 +26,20 @@
   </url><url>
     <loc>https://frankdoka.com/</loc>
   </url><url>
-    <loc>https://frankdoka.com/projects/</loc>
+    <loc>https://frankdoka.com/tags/powershell/</loc>
   </url><url>
-    <loc>https://frankdoka.com/tags/python/</loc>
+    <loc>https://frankdoka.com/projects/</loc>
   </url><url>
     <loc>https://frankdoka.com/tags/saa/</loc>
   </url><url>
-    <loc>https://frankdoka.com/search/</loc>
+    <loc>https://frankdoka.com/tags/sccm/</loc>
   </url><url>
-    <loc>https://frankdoka.com/tags/solutions-architect/</loc>
+    <loc>https://frankdoka.com/search/</loc>
   </url><url>
     <loc>https://frankdoka.com/stats/</loc>
   </url><url>
     <loc>https://frankdoka.com/tags/</loc>
+  </url><url>
+    <loc>https://frankdoka.com/tags/virtual/</loc>
   </url>
 </urlset>

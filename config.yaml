@@ -42,13 +42,13 @@ params:
   profileMode:
     enabled: true
     title: "Frank Doka"
-    subtitle: "Hi - I'm Frank Doka . A Systems Engineer located in New York City. I have over 6 years of experience in the public sector working for the City of New York as a Systems Administrator. I am looking to advance my career and skillset into the Cloud and incorporate my existing skills and knowledge to provide positive growth to the companies I work with as well as my own personal growth. 
-	        <p><br>In August of 2023 I obtained my AWS associate-level Solutions Architect certification. Since then, I have been working on many different projects to showcase my current knowledge and passion for the industry."
-    imageUrl: "home/formal-pic-small.png"
-    imageWidth: 440
-    imageHeight: 440
+    subtitle: "<br>Hello! Welcome to my website.<br><br>This is a place where I write about my learnings and insights into technologies.<br>My interests include cloud engineering, DevOps and software development.<p><br>You can find more details about me below."  
+    imageUrl: "home/Untitled.png"
+    imageWidth: 300
+    imageHeight: 290
     buttons:
-        - name: Resume
+        - name: About Me
+          url: /about
      #   url: ""
 
   # List View
@@ -60,11 +60,11 @@ params:
     hiddenInSingle: false # hide on single page
 
   socialIcons:
-    - name: "email"
+    #- name: "email"
      # url: "mailto:fdoka00@gmail.com"
-    - name: "github"
+   # - name: "github"
      # url: ""
-    - name: "cv"
+   # - name: "cv"
      # url: ""
 
   # text search

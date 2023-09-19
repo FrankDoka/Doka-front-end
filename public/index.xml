@@ -7,21 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://frankdoka.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>I passed the AWS SAA Certification Exam</title>
+      <title>AWS SAA Certification Exam</title>
       <link>https://frankdoka.com/blog/aws-saa-certification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://frankdoka.com/blog/aws-saa-certification/</guid>
-      <description>How I passed the AWS Solutions Architect-Associate Certification Exam</description>
+      <description>How I passed SAA-C03 - AWS Solutions Architect-Associate Certification Exam</description>
     </item>
     
     <item>
-      <title>Fank Doka - Project One</title>
+      <title>Cloud Resume Challenge</title>
       <link>https://frankdoka.com/projects/frank-doka-project-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://frankdoka.com/projects/frank-doka-project-1/</guid>
-      <description>Put Description Here</description>
+      <description>Build a cloud-hosted resume website, showcasing cloud skills.</description>
     </item>
     
     <item>
@@ -30,7 +30,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://frankdoka.com/experience/frank-doka-experience-1/</guid>
-      <description>NYC</description>
+      <description>Description Develop and lead large multifunctional system activities including managing, creating and deploying application programs and packages with Microsoft System Center Configuration Manager and Microsoft Deployment Toolkit.
+Conduct application testing to validate codebase and remediate issues discovered through performance and security testing.
+Install, configure, troubleshoot, document and proactively maintain physical and virtual servers, systems and applications using VMWare and Hyper-V.
+Monitor, deploy and maintain server and desktop workstation patches and upgrades.</description>
     </item>
     
     <item>
@@ -40,6 +43,17 @@
       
       <guid>https://frankdoka.com/stats/visitor-count/</guid>
       <description>You are visitor number loading...</description>
+    </item>
+    
+    <item>
+      <title>NYC Police Department</title>
+      <link>https://frankdoka.com/experience/frank-doka-experience-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/experience/frank-doka-experience-2/</guid>
+      <description>Description Provided IT technical support and remote assistance to end-users for computer operational and various peripheral equipment, resolving 1500+ support tickets
+Assigned and delegated various computer operational work to other technical units and ensured satisfactory completion of tasks.
+Collaborate with IT teams to ensure timely and effective resolution of technical issues and incidents.</description>
     </item>
     
     

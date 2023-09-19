@@ -16,7 +16,7 @@ The AWS Cloud Resume Challenge is an engaging, hands-on initiative designed to e
 It offers an exceptional opportunity to showcase your expertise to prospective employers while developing proficiency in cloud computing. By completing this challenge, you not only bolster your AWS knowledge but also create a tangible asset for your career, making you a more competitive candidate in the ever-evolving field of cloud technology.
 
 ## Project Overview
-**These are the steps that I took when taking on this challenge**
+**This is a high level overview of the steps I took during this challenge:**
 
 1. **HTML Resume:** Start by creating a professional resume using HTML.
 

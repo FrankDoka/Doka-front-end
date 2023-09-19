@@ -4,9 +4,9 @@ description: "How I passed SAA-C03 - AWS Solutions Architect-Associate Certifica
 dateString: August 2023
 draft: false
 tags: ["AWS", "SAA", "Certification"]
-weight: 102
+weight: 100
 cover:
-    image: "images/cover.jpg"
+    image: "images/cover.png"
 ---
 
 # Credentials
