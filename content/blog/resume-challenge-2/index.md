@@ -1,6 +1,6 @@
 ---
-title: "Building the Front-End"
-description: "Building the front end of our website using HTML,CSS,Javascript and Hugo. Hosting our website on AWS using S3, Cloudfront and Route 53."
+title: "Building the frontend"
+description: "Building the frontend of our website using HTML,CSS,Javascript and Hugo. Hosting our website on AWS using S3, Cloudfront and Route 53."
 dateString: August 2023
 draft: false
 tags: ["AWS"]

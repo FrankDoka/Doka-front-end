@@ -1,5 +1,5 @@
 ---
-title: "IaC, CI/CD Enhancements, Smoke Testing"
+title: "IaC, CI/CD Enhancements, smoke testing"
 description: "Diving into tools such as Terraform to utilize IaC. Enhancing our CI/CD pipeline and testing."
 dateString: September 2023
 draft: false

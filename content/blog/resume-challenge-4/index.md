@@ -1,6 +1,6 @@
 ---
-title: "API Backend Continuation and Frontend Integration"
-description: "Integrating our website Frontend and our Backend services to create an example Visitor Counter Stat."
+title: "API backend continuation and frontend integration"
+description: "Integrating our website frontend and our backend services to create an example visitor counter stat."
 dateString: September 2023
 draft: false
 tags: ["AWS"]
