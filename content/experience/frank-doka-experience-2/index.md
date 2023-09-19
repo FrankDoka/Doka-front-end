@@ -6,7 +6,7 @@ tags: ["Support", "Virtual", "Active Directory"]
 showToc: false
 weight: 500
 cover:
-    image: "images/cover.png"
+    image: "images/cover2.png"
 --- 
 
 ### Description

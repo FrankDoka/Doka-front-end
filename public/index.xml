@@ -7,12 +7,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://frankdoka.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>IaC, CI/CD Enhancements, Smoke Testing</title>
+      <link>https://frankdoka.com/blog/resume-challenge-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/blog/resume-challenge-5/</guid>
+      <description>Diving into tools such as Terraform to utilize IaC. Enhancing our CI/CD pipeline and testing.</description>
+    </item>
+    
+    <item>
+      <title>API Backend Continuation and Frontend Integration</title>
+      <link>https://frankdoka.com/blog/resume-challenge-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/blog/resume-challenge-4/</guid>
+      <description>Integrating our website Frontend and our Backend services to create an example Visitor Counter Stat.</description>
+    </item>
+    
+    <item>
+      <title>Backend Technologies and APIs</title>
+      <link>https://frankdoka.com/blog/resume-challenge-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/blog/resume-challenge-3/</guid>
+      <description>Creating our backend foundation using AWS Services such as API Gateways, Lambda, and DynamoDB. Exploring IAM Permissions more indepth.</description>
+    </item>
+    
+    <item>
+      <title>Building the Front-End</title>
+      <link>https://frankdoka.com/blog/resume-challenge-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/blog/resume-challenge-2/</guid>
+      <description>Building the front end of our website using HTML,CSS,Javascript and Hugo. Hosting our website on AWS using S3, Cloudfront and Route 53.</description>
+    </item>
+    
+    <item>
+      <title>AWS Accounts and Organization</title>
+      <link>https://frankdoka.com/blog/resume-challenge-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/blog/resume-challenge-1/</guid>
+      <description>Creating our AWS Accounts and Organization. Using AWS Services such as CodeCommit, CodePipeline and tools such as ORG-FORMATIONS</description>
+    </item>
+    
+    <item>
       <title>AWS SAA Certification Exam</title>
       <link>https://frankdoka.com/blog/aws-saa-certification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://frankdoka.com/blog/aws-saa-certification/</guid>
       <description>How I passed SAA-C03 - AWS Solutions Architect-Associate Certification Exam</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://frankdoka.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/about/</guid>
+      <description>Frank Doka - Systems Engineer</description>
     </item>
     
     <item>
@@ -30,9 +84,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://frankdoka.com/experience/frank-doka-experience-1/</guid>
-      <description>Description Develop and lead large multifunctional system activities including managing, creating and deploying application programs and packages with Microsoft System Center Configuration Manager and Microsoft Deployment Toolkit.
+      <description>Description Develop and lead large multifunctional system activities including managing, creating and deploying application programs and packages with various technologies such as Microsoft System Center Configuration Manager, Microsoft Deployment Toolkit, Docker.
 Conduct application testing to validate codebase and remediate issues discovered through performance and security testing.
-Install, configure, troubleshoot, document and proactively maintain physical and virtual servers, systems and applications using VMWare and Hyper-V.
+Install, configure, troubleshoot, document and proactively maintain Windows and Linux physical and virtual servers, systems and applications using VMWare and Hyper-V.
 Monitor, deploy and maintain server and desktop workstation patches and upgrades.</description>
     </item>
     
@@ -42,7 +96,7 @@ Monitor, deploy and maintain server and desktop workstation patches and upgrades
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://frankdoka.com/stats/visitor-count/</guid>
-      <description>You are visitor number loading...</description>
+      <description>Visitor Count tracking - incorporating the use of API Gateway, Lambda, DynamoDB</description>
     </item>
     
     <item>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>AWS Accounts and Organization | Frank Doka</title>
+<meta name="keywords" content="AWS">
+<meta name="description" content="Creating our AWS Accounts and Organization. Using AWS Services such as CodeCommit, CodePipeline and tools such as ORG-FORMATIONS">
+<meta name="author" content="">
+<link rel="canonical" href="https://frankdoka.com/blog/resume-challenge-1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.5fb04b9a00004a874ef7105de5fd8c706989be84dfa48d739bfc71f9397a0cfe.css" integrity="sha256-X7BLmgAASodO9xBd5f2McGmJvoTfpI1zm/xx&#43;Tl6DP4=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://frankdoka.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://frankdoka.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://frankdoka.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://frankdoka.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://frankdoka.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="AWS Accounts and Organization" />
+<meta property="og:description" content="Creating our AWS Accounts and Organization. Using AWS Services such as CodeCommit, CodePipeline and tools such as ORG-FORMATIONS" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://frankdoka.com/blog/resume-challenge-1/" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AWS Accounts and Organization"/>
+<meta name="twitter:description" content="Creating our AWS Accounts and Organization. Using AWS Services such as CodeCommit, CodePipeline and tools such as ORG-FORMATIONS"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Blogs",
+      "item": "https://frankdoka.com/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "AWS Accounts and Organization",
+      "item": "https://frankdoka.com/blog/resume-challenge-1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AWS Accounts and Organization",
+  "name": "AWS Accounts and Organization",
+  "description": "Creating our AWS Accounts and Organization. Using AWS Services such as CodeCommit, CodePipeline and tools such as ORG-FORMATIONS",
+  "keywords": [
+    "AWS"
+  ],
+  "articleBody": "Setting Up the Management Account Establishment of a Management Account, which serves as the central hub for controlling our AWS resources. This account plays a pivotal role in orchestrating and managing our entire AWS infrastructure.\nBuilding an AWS Organization with org-formation tool To streamline the organization of our AWS accounts and resources, we leveraged the powerful org-formation tool. This nifty tool automates the process, making it easier to configure and manage our AWS Organization. With org-formation, we can define the structure of our organization, establish clear hierarchies, and maintain consistency across our AWS environment.\nThis tool takes the idea behind AWS Control Tower and enhances it with more features and capabilities.\nEmbracing CodeCommit and CodePipeline To ensure efficient version control and continuous integration/continuous deployment (CI/CD) processes, we embraced CodeCommit and CodePipeline.\nThese AWS services allow us to commit and push changes to our codebase seamlessly. With Git at our fingertips, we have a robust mechanism to manage code versions and automate the deployment pipeline.\nFor our front-end and back-end solutions later on in the project , we will be utilizing GitHub and GitHub Actions.\nImplementing Automated Billing Alerts To keep our expenses in check, we set up automated billing alerts. These alerts notify us when our AWS costs reach predefined thresholds, ensuring that we are always aware of our spending.\nIntegrating CodeCommit with Visual Studio Code For a seamless development experience, we integrated CodeCommit with Visual Studio Code (VS Code). This integration simplifies the code collaboration process and allows our developers to work efficiently within their preferred development environment.\nCreating a Development Account To maintain a clear separation between our production and development environments, we established a dedicated Development Account. This account serves as a safe sandbox for testing changes before they are pushed to the production environment. It’s a crucial step to ensure the stability and reliability of our systems.\nSetting Up AWS Single Sign-On (SSO) Enhancing the login experience for our team members was a priority. We implemented AWS Single Sign-On (SSO) to provide a more convenient and secure way for users to access AWS services. With SSO, users can access multiple AWS accounts and applications using a single set of credentials.\nLeveraging IAM Identity Center for Role Federation To further enhance our security posture and access management, we utilized IAM Identity Center for role federation. This ensures that users have the appropriate permissions to access AWS resources while maintaining a high level of security and control.\nWith these foundational steps in place, we’ve laid the groundwork for a robust and organized AWS environment.\n",
+  "wordCount" : "426",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://frankdoka.com/blog/resume-challenge-1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Frank Doka",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://frankdoka.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header sticky-header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://frankdoka.com" accesskey="h" title="Frank Doka (Alt + H)">Frank Doka</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://frankdoka.com/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://frankdoka.com/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://frankdoka.com/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://frankdoka.com/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://frankdoka.com/stats" title="Stats">
+                    <span>Stats</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://frankdoka.com/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://frankdoka.com">Home</a>&nbsp;»&nbsp;<a href="https://frankdoka.com/blog/">Blogs</a></div>
+    <h1 class="post-title">
+      AWS Accounts and Organization
+    </h1>
+    <div class="post-description">
+      Creating our AWS Accounts and Organization. Using AWS Services such as CodeCommit, CodePipeline and tools such as ORG-FORMATIONS
+    </div>
+    <div class="post-meta">
+
+
+August 2023
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">‎ Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#setting-up-the-management-account" aria-label="Setting Up the Management Account">Setting Up the Management Account</a></li>
+                <li>
+                    <a href="#building-an-aws-organization-with-org-formation-tool" aria-label="Building an AWS Organization with org-formation tool">Building an AWS Organization with org-formation tool</a></li>
+                <li>
+                    <a href="#embracing-codecommit-and-codepipeline" aria-label="Embracing CodeCommit and CodePipeline">Embracing CodeCommit and CodePipeline</a></li>
+                <li>
+                    <a href="#implementing-automated-billing-alerts" aria-label="Implementing Automated Billing Alerts">Implementing Automated Billing Alerts</a></li>
+                <li>
+                    <a href="#integrating-codecommit-with-visual-studio-code" aria-label="Integrating CodeCommit with Visual Studio Code">Integrating CodeCommit with Visual Studio Code</a></li>
+                <li>
+                    <a href="#creating-a-development-account" aria-label="Creating a Development Account">Creating a Development Account</a></li>
+                <li>
+                    <a href="#setting-up-aws-single-sign-on-sso" aria-label="Setting Up AWS Single Sign-On (SSO)">Setting Up AWS Single Sign-On (SSO)</a></li>
+                <li>
+                    <a href="#leveraging-iam-identity-center-for-role-federation" aria-label="Leveraging IAM Identity Center for Role Federation">Leveraging IAM Identity Center for Role Federation</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="setting-up-the-management-account">Setting Up the Management Account<a hidden class="anchor" aria-hidden="true" href="#setting-up-the-management-account">#</a></h2>
+<p>Establishment of a <strong>Management Account</strong>, which serves as the central hub for controlling our AWS resources. This account plays a pivotal role in orchestrating and managing our entire AWS infrastructure.</p>
+<h2 id="building-an-aws-organization-with-org-formation-tool">Building an AWS Organization with org-formation tool<a hidden class="anchor" aria-hidden="true" href="#building-an-aws-organization-with-org-formation-tool">#</a></h2>
+<p>To streamline the organization of our AWS accounts and resources, we leveraged the powerful <code>org-formation</code> tool. This nifty tool automates the process, making it easier to configure and manage our AWS Organization. With <code>org-formation</code>, we can define the structure of our organization, establish clear hierarchies, and maintain consistency across our AWS environment.</p>
+<p>This tool takes the idea behind AWS Control Tower and enhances it with more features and capabilities.</p>
+<h2 id="embracing-codecommit-and-codepipeline">Embracing CodeCommit and CodePipeline<a hidden class="anchor" aria-hidden="true" href="#embracing-codecommit-and-codepipeline">#</a></h2>
+<p>To ensure efficient version control and continuous integration/continuous deployment (CI/CD) processes, we embraced <strong>CodeCommit</strong> and <strong>CodePipeline</strong>.</p>
+<p>These AWS services allow us to commit and push changes to our codebase seamlessly. With Git at our fingertips, we have a robust mechanism to manage code versions and automate the deployment pipeline.</p>
+<p>For our front-end and back-end solutions later on in the project , we will be utilizing <strong>GitHub</strong> and <strong>GitHub Actions</strong>.</p>
+<h2 id="implementing-automated-billing-alerts">Implementing Automated Billing Alerts<a hidden class="anchor" aria-hidden="true" href="#implementing-automated-billing-alerts">#</a></h2>
+<p>To keep our expenses in check, we set up automated billing alerts. These alerts notify us when our AWS costs reach predefined thresholds, ensuring that we are always aware of our spending.</p>
+<h2 id="integrating-codecommit-with-visual-studio-code">Integrating CodeCommit with Visual Studio Code<a hidden class="anchor" aria-hidden="true" href="#integrating-codecommit-with-visual-studio-code">#</a></h2>
+<p>For a seamless development experience, we integrated CodeCommit with <strong>Visual Studio Code (VS Code)</strong>. This integration simplifies the code collaboration process and allows our developers to work efficiently within their preferred development environment.</p>
+<h2 id="creating-a-development-account">Creating a Development Account<a hidden class="anchor" aria-hidden="true" href="#creating-a-development-account">#</a></h2>
+<p>To maintain a clear separation between our production and development environments, we established a dedicated <strong>Development Account</strong>. This account serves as a safe sandbox for testing changes before they are pushed to the production environment. It&rsquo;s a crucial step to ensure the stability and reliability of our systems.</p>
+<h2 id="setting-up-aws-single-sign-on-sso">Setting Up AWS Single Sign-On (SSO)<a hidden class="anchor" aria-hidden="true" href="#setting-up-aws-single-sign-on-sso">#</a></h2>
+<p>Enhancing the login experience for our team members was a priority. We implemented <strong>AWS Single Sign-On (SSO)</strong> to provide a more convenient and secure way for users to access AWS services. With SSO, users can access multiple AWS accounts and applications using a single set of credentials.</p>
+<h2 id="leveraging-iam-identity-center-for-role-federation">Leveraging IAM Identity Center for Role Federation<a hidden class="anchor" aria-hidden="true" href="#leveraging-iam-identity-center-for-role-federation">#</a></h2>
+<p>To further enhance our security posture and access management, we utilized <strong>IAM Identity Center</strong> for role federation. This ensures that users have the appropriate permissions to access AWS resources while maintaining a high level of security and control.</p>
+<p>With these foundational steps in place, we&rsquo;ve laid the groundwork for a robust and organized AWS environment.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://frankdoka.com/tags/aws/">AWS</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://frankdoka.com">Frank Doka</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

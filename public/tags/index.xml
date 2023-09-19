@@ -34,6 +34,15 @@
     </item>
     
     <item>
+      <title>Linux</title>
+      <link>https://frankdoka.com/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Powershell</title>
       <link>https://frankdoka.com/tags/powershell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -61,11 +70,29 @@
     </item>
     
     <item>
+      <title>Support</title>
+      <link>https://frankdoka.com/tags/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/tags/support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Virtual</title>
       <link>https://frankdoka.com/tags/virtual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://frankdoka.com/tags/virtual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://frankdoka.com/tags/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frankdoka.com/tags/windows/</guid>
       <description></description>
     </item>
     

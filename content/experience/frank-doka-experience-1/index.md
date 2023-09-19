@@ -6,7 +6,7 @@ tags: ["Powershell", "SCCM", "Virtual", "Active Directory", "Windows", "Linux"]
 showToc: false
 weight: 301
 cover:
-    image: "images/cover.png"
+    image: "images/latest.png"
 --- 
 
 ### Description

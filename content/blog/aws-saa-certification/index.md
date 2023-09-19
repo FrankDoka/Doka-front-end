@@ -6,7 +6,7 @@ draft: false
 tags: ["AWS", "SAA", "Certification"]
 weight: 100
 cover:
-    image: "images/cover.png"
+    image: "images/cover2.png"
 ---
 
 # Credentials
