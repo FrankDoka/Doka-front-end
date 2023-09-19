@@ -48,14 +48,14 @@ It offers an exceptional opportunity to showcase your expertise to prospective e
 
 15. **Blog Post Integration:** Include a link to a concise blog post within your resume text. This post should highlight key learnings and experiences gained throughout the project.
 
-## Phase 1: Creating AWS Accounts and Organization ##
+## Phase 1: Creating AWS Accounts and Organization
 Blog Post: [Phase 1](https://frankdoka.com/blog/resume-challenge-1)
 
 Creating the initial AWS Master account, production and development accounts. Using tools such as Org-Formations to automate the process for version-control and reusability.
 
 ![](images/org-formation.png)
 
-## Phase 2: Building the Website Frontend and Hosting it on AWS  ##
+## Phase 2: Building the Website Frontend and Hosting it on AWS
 Blog Post: [Phase 2](https://frankdoka.com/blog/resume-challenge-2)
 
 Initial design philosophy - Using AWS S3 static website hosting and SSL certificates. Leveraging the use of CloudFront distribution for HTTPS access and global distribution.
@@ -64,7 +64,7 @@ Initial design philosophy - Using AWS S3 static website hosting and SSL certific
 Creating the website code using a combination of HTML, CSS, YAML and HUGO.
 ![](images/websitecode.png)
 
-## Phase 3: Building the Backend using AWS API Gateway, Lambda Functions, DynamoDB ##
+## Phase 3: Building the Backend using AWS API Gateway, Lambda Functions, DynamoDB
 Blog Post: [Phase 3](https://frankdoka.com/blog/resume-challenge-3)
 
 Building the backend components starting with the database. Storing data on DynamoDB.
@@ -73,21 +73,21 @@ Building the backend components starting with the database. Storing data on Dyna
 Creating our lambda function using python to update and return our DynamoDB database information.
 ![](images/lambda.png)
 
-## Phase 4: Integrating the Frontend and Backend ##
+## Phase 4: Integrating the Frontend and Backend
 Blog Post: [Phase 4](https://frankdoka.com/blog/resume-challenge-4)
 
 Integrating our website frontend and our backend services to create an example visitor counter stat. Creating and linking API Gateway to a lambda function.
 
 ![](images/apigateway.png)
 
-## Phase 5: Deployment using IaC and using CI/CD workflows ##
+## Phase 5: Deployment using IaC and using CI/CD workflows
 Blog Post: [Phase 5](https://frankdoka.com/blog/resume-challenge-5)
 
 GitHub Actions Workflow: We leveraged GitHub Actions to automate our CI/CD pipeline. This streamlined the process of deploying updates, ensuring that our SAM application package and Python code were properly tested before deployment.
 
 ![](images/github.png)
 
-## Future Plans ##
+## Future Plans
 
 Coming from a background in IT infrastructure and working on an on-prem environment for many years - completing this challenge has been eye-opening in a few ways. It's important to adapt to new concepts for working with the cloud. Many design philosophies that I have learned can still be applied in a cloud environment. 
 
