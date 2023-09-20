@@ -1,6 +1,6 @@
 ---
 title: "Building the Frontend"
-description: "Building the frontend of our website using HTML,CSS,Javascript and Hugo. Hosting our website on AWS using S3, Cloudfront and Route 53."
+description: "Building the frontend of the website using HTML,CSS,Javascript and Hugo. Hosting the website on AWS using S3, Cloudfront and Route 53."
 dateString: August 2023
 draft: false
 tags: ["AWS"]
@@ -9,58 +9,48 @@ cover:
     image: ""
 ---
 
-The second part of our cloud resume project journey! Today, we start building the front-end of our project, exploring new tools and techniques to enhance our skills and create a polished web presence.
+# Front-End Development in the Cloud Resume Project
+
+In this phase of my **Cloud Resume Project**, I ventured into building the front-end of my project, mastering various tools and techniques to create a polished web presence.
 
 ## Crafting a Resume in HTML
 
-Our first task was to create a digital resume. 
-
-We decided to keep start simple and effective by coding it in **HTML**. This allowed us to structure the content precisely as we wanted it and provided a foundation for future styling.
+My journey began with creating a digital resume. I opted for the simplicity and precision of **HTML** to structure my content exactly as desired, laying the foundation for future styling.
 
 ## Styling with CSS
 
-To make our resume visually appealing, we utilized **Cascading Style Sheets (CSS)**. 
+To elevate my resume's visual appeal, I harnessed the power of **Cascading Style Sheets (CSS)**. CSS enabled me to transform plain HTML content into an aesthetically pleasing document, effectively showcasing my skills and experience.
 
-With CSS, we transformed our plain HTML content into an aesthetically pleasing document that showcased our skills and experience.
+## Hosting with S3, HTTPS, and DNS
 
-## Hosting with a Static S3 Website, HTTPS, and DNS
-
-With our resume ready, it was time to make it accessible to the world. 
-
-We hosted it as a static website on **Amazon S3**, ensuring that it was served over **HTTPS** for security and that DNS was configured correctly for easy access.
+With my resume ready, the next step was making it globally accessible. I hosted it as a static website on **Amazon S3**, ensuring secure delivery over **HTTPS** using **Amazon CloudFront** and configuring DNS for seamless access.
 
 ## Configuring Route 53 and Routing Policies
 
-To ensure seamless access to our website, we configured **Amazon Route 53**. This involved setting up routing policies and creating the necessary DNS records.
+To guarantee uninterrupted website access, I leveraged **Amazon Route 53**. This involved configuring routing policies and creating essential DNS records.
 
 ## Addressing Name Server Issues
 
-One challenge we faced was related to name servers. We had to ensure that our domain was correctly configured with the name servers of the hosted zone. This step was crucial for proper domain resolution.
+Managing name servers posed a challenge. I configured my domain with the correct name servers of the hosted zone to ensure precise domain resolution.
 
-## Utilizing CloudFront for Enhanced Website Hosting
+## Enhanced Hosting with CloudFront
 
-To boost the performance and security of our website, we utilized **Amazon CloudFront**.
+For heightened website performance and security, I implemented **Amazon CloudFront**. This content delivery network (CDN) acted as an intermediary, facilitating faster load times and enhanced security.
 
-This content delivery network (CDN) served as an intermediary between our basic S3 static hosting and the users, ensuring faster load times and added security.
+## SSL Certificate from ACM
 
-## Creating SSL Certificate with ACM Manager
+Security was paramount, so I fortified my website with an **SSL certificate** courtesy of **AWS Certificate Manager (ACM)**. This crucial step provided encryption and instilled trustworthiness, enhancing visitor safety.
 
-Security is paramount, so we secured our website with an **SSL certificate** from **AWS Certificate Manager (ACM)**. 
+## Designing with Hugo
 
-This step provided encryption and trustworthiness to our site, making it safer for visitors.
+To infuse a professional and polished aesthetic into my website, I turned to **Hugo**. This static site generator empowered me to craft a visually appealing and responsive website with ease.
 
-## Leveraging Hugo for Website Design
+## GitHub and GitHub Actions for Deployment
 
-To give our website a professional and polished look, we turned to **Hugo**. 
-
-This static site generator helped us create a visually appealing and responsive website with ease.
-
-## Using GitHub and GitHub Actions for Deployment
-
-For efficient website deployment, we employed **GitHub** and **GitHub Actions**. 
-
-This streamlined the process and allowed us to automate deployments. However, we encountered a challenge related to images not showing up correctly.
+Efficient deployment was achieved through **GitHub** and **GitHub Actions**, streamlining the process and enabling automation. I did encounter image display challenges during this phase.
 
 ## Overcoming Image Display Challenges
 
-To address the image display issues, we implemented solutions like **PaperMod** and adjusted the content and static paths on our Hugo HTML website. These changes ensured that images were displayed correctly, enhancing the overall user experience.
+To address image display issues, I implemented solutions like **PaperMod** and fine-tuned content and static paths on my Hugo HTML website. These adjustments ensured images were displayed correctly, enhancing the overall user experience.
+
+
