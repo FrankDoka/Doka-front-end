@@ -25,6 +25,10 @@ menu:
       name: Stats
       url: /stats
       weight: 50
+    - identifier: Login
+      name: Login
+      url: "https://login.frankdoka.com"
+      weight: 50
     - identifier: search
       name: Search
       url: /search

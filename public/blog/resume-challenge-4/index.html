@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>API Backend Continuation and Frontend Integration | Frank Doka</title>
+<title>API Backend continuation and Frontend integration | Frank Doka</title>
 <meta name="keywords" content="AWS">
-<meta name="description" content="Integrating our website Frontend and our Backend services to create an example Visitor Counter Stat.">
+<meta name="description" content="Integrating website frontend and backend services to create an example visitor counter stat.">
 <meta name="author" content="">
 <link rel="canonical" href="https://frankdoka.com/blog/resume-challenge-4/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.5fb04b9a00004a874ef7105de5fd8c706989be84dfa48d739bfc71f9397a0cfe.css" integrity="sha256-X7BLmgAASodO9xBd5f2McGmJvoTfpI1zm/xx&#43;Tl6DP4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.0f92c65bc46ea69b0cfe5a4f73429f84add04a397b7d0d053fadb3464ea13b78.css" integrity="sha256-D5LGW8RuppsM/lpPc0KfhK3QSjl7fQ0FP62zRk6hO3g=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://frankdoka.com/favicon.ico">
@@ -56,16 +56,16 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="API Backend Continuation and Frontend Integration" />
-<meta property="og:description" content="Integrating our website Frontend and our Backend services to create an example Visitor Counter Stat." />
+</noscript><meta property="og:title" content="API Backend continuation and Frontend integration" />
+<meta property="og:description" content="Integrating website frontend and backend services to create an example visitor counter stat." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://frankdoka.com/blog/resume-challenge-4/" /><meta property="article:section" content="blog" />
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="API Backend Continuation and Frontend Integration"/>
-<meta name="twitter:description" content="Integrating our website Frontend and our Backend services to create an example Visitor Counter Stat."/>
+<meta name="twitter:title" content="API Backend continuation and Frontend integration"/>
+<meta name="twitter:description" content="Integrating website frontend and backend services to create an example visitor counter stat."/>
 
 
 <script type="application/ld+json">
@@ -82,7 +82,7 @@
     {
       "@type": "ListItem",
       "position":  3 ,
-      "name": "API Backend Continuation and Frontend Integration",
+      "name": "API Backend continuation and Frontend integration",
       "item": "https://frankdoka.com/blog/resume-challenge-4/"
     }
   ]
@@ -92,14 +92,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "API Backend Continuation and Frontend Integration",
-  "name": "API Backend Continuation and Frontend Integration",
-  "description": "Integrating our website Frontend and our Backend services to create an example Visitor Counter Stat.",
+  "headline": "API Backend continuation and Frontend integration",
+  "name": "API Backend continuation and Frontend integration",
+  "description": "Integrating website frontend and backend services to create an example visitor counter stat.",
   "keywords": [
     "AWS"
   ],
-  "articleBody": "API Backend Continuation and Front-End Integration we continued our exploration of the API backend and initiated the crucial integration between the front end and back end. Let’s dive into the details of our progress:\nAPI Creation and Testing API Gateway Route for Lambda Function: We set up an API Gateway route in front of our Lambda function, configuring it to handle POST requests. This step was essential for creating a pathway for communication between our front end and back end.\nInternal Testing with API Gateway: We utilized the API Gateway’s internal test console to ensure that our API was functioning as expected. This involved making requests to our Lambda function and verifying that we received the correct responses.\nExternal Testing with Postman: To expand our testing scope, we tested our API using Postman. This allowed us to verify that our API worked seamlessly when accessed externally.\nIncrementing DynamoDB Count: We created an API Gateway for Lambda, which invoked the Lambda function to increment the count in our DynamoDB table. We tested this functionality through various means, including browser and Postman, to ensure that the count increased as expected.\nFront-End and Back-End Integration Connecting Front-End to Back-End: The next crucial step was integrating the front end (our resume site hosted on S3) with the back end (our API). We aimed to display the visitor count on the homepage of our site.\nAutomated Tests: We implemented automated tests to confirm the smooth operation of our integration. These tests were designed to validate that our system always performed as expected.\nJavaScript Visitor Counter: We created a JavaScript visitor counter that made HTTP requests to our API Gateway. While this was a straightforward task, we encountered some CORS (Cross-Origin Resource Sharing) issues between the browser and API, which we addressed. The goal was to display the visitor count on our web app.\nPython Code Testing: For comprehensive testing, we wrote automated tests against our API. These tests, often referred to as “smoke tests” or end-to-end tests, verified that our Lambda code worked correctly, permissions and configurations were accurate, and resources were deployed successfully. We employed Cypress, a JavaScript testing framework, to call our API endpoint and perform a series of checks:\nEnsuring the API returned an updated value. Verifying that the API correctly updated the database. Confirming that the API responded to unexpected input. Checking edge cases in our function logic, such as handling uninitialized visitor counts. Front-End Updates and CI/CD: We revisited the front end, incorporating it into our GitHub repository and enhancing our CI/CD (Continuous Integration/Continuous Deployment) pipeline. We also updated AWS secret keys for secure access.\nHugo Shortcode for Visitor Count: To make it easier to display the visitor count on our website, we created a Hugo shortcode and added a new Visitors tab to test shortcodes.\nFront-End Integration Challenges: While the front end successfully fetched data from DynamoDB and displayed the visitor count, we encountered issues with updating the count correctly. These issues were primarily related to CORS policy restrictions.\nCORS Policy Adjustment: To resolve the CORS issue, we made necessary changes to the CORS policy on AWS to allow the website and enable the GET method.\nWith these accomplishments and challenges tackled, we’re well on our way to creating a seamless integration between our front-end and back-end systems.\n",
-  "wordCount" : "549",
+  "articleBody": "Progress in API Backend and Front-End Integration In my journey into the world of API backend development, I initiated the crucial integration between my front-end and back-end systems.\nAPI Creation and Testing API Gateway Route for Lambda Function: I established an API Gateway route in front of my Lambda function, configuring it to handle POST requests. This setup paved the way for communication between my front-end and back-end components.\nInternal Testing with API Gateway: To ensure the functionality of my API, I harnessed the API Gateway’s internal test console. I rigorously tested the API by making requests to my Lambda function and confirming that the responses aligned with my expectations.\nExternal Testing with Postman: Expanding my testing scope, I employed Postman to test my API externally. This thorough testing approach verified that my API functioned seamlessly when accessed from external sources.\nIncrementing DynamoDB Count: One of my pivotal achievements involved creating an API Gateway for Lambda, enabling it to invoke the Lambda function to increment the count in my DynamoDB table. I conducted comprehensive testing through different channels, including browsers and Postman, to ensure the count incremented as intended.\nFront-End and Back-End Integration Connecting Front-End to Back-End: The next critical milestone was to establish a seamless connection between my front-end (hosted on S3) and the back-end (my API). My objective was to display the visitor count on the homepage of my website.\nAutomated Tests: I implemented automated testing procedures to validate the smooth operation of my integration. These tests ensured that my system consistently performed as expected.\nJavaScript Visitor Counter: I developed a JavaScript visitor counter that made HTTP requests to my API Gateway. Although this task was relatively straightforward, I encountered CORS (Cross-Origin Resource Sharing) issues between the browser and API. These issues were successfully addressed to enable the display of visitor counts on my web app.\nPython Code Testing: To ensure comprehensive testing, I created automated tests for my API. These tests, often referred to as “smoke tests” or end-to-end tests, verified the correctness of my Lambda code, the accuracy of permissions and configurations, and the successful deployment of resources. Cypress, a JavaScript testing framework, was utilized to call my API endpoint and perform a series of checks, including verifying updated values, correct database updates, handling of unexpected input, and edge case scenarios.\nFront-End Updates and CI/CD: I revisited the front end, integrating it into my GitHub repository and enhancing my CI/CD (Continuous Integration/Continuous Deployment) pipeline. I also reinforced security by updating AWS secret keys for access.\nHugo Shortcode for Visitor Count: To simplify the display of the visitor count on my website, I crafted a Hugo shortcode and introduced a new Visitors tab for shortcode testing.\nFront-End Integration Challenges: While the front end successfully fetched data from DynamoDB and displayed the visitor count, challenges emerged when updating the count accurately. These challenges primarily stemmed from CORS policy restrictions.\nCORS Policy Adjustment: To overcome the CORS issue, I made essential changes to the CORS policy on AWS. These adjustments allowed for seamless communication between the website and the API, including GET method access.\nWith these achievements and challenges addressed, I am making substantial progress toward achieving a seamless integration between my front-end and back-end systems.\n",
+  "wordCount" : "537",
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -180,6 +180,11 @@
                 </a>
             </li>
             <li>
+                <a href="https://frankdoka.com/login" title="Login">
+                    <span>Login</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://frankdoka.com/stats" title="Stats">
                     <span>Stats</span>
                 </a>
@@ -198,10 +203,10 @@
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://frankdoka.com">Home</a>&nbsp;»&nbsp;<a href="https://frankdoka.com/blog/">Blogs</a></div>
     <h1 class="post-title">
-      API Backend Continuation and Frontend Integration
+      API Backend continuation and Frontend integration
     </h1>
     <div class="post-description">
-      Integrating our website Frontend and our Backend services to create an example Visitor Counter Stat.
+      Integrating website frontend and backend services to create an example visitor counter stat.
     </div>
     <div class="post-meta">
 
@@ -217,7 +222,7 @@ September 2023
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#api-backend-continuation-and-front-end-integration" aria-label="API Backend Continuation and Front-End Integration">API Backend Continuation and Front-End Integration</a><ul>
+                    <a href="#progress-in-api-backend-and-front-end-integration" aria-label="Progress in API Backend and Front-End Integration">Progress in API Backend and Front-End Integration</a><ul>
                         
                 <li>
                     <a href="#api-creation-and-testing" aria-label="API Creation and Testing">API Creation and Testing</a></li>
@@ -231,59 +236,53 @@ September 2023
     </details>
 </div>
 
-  <div class="post-content"><h1 id="api-backend-continuation-and-front-end-integration">API Backend Continuation and Front-End Integration<a hidden class="anchor" aria-hidden="true" href="#api-backend-continuation-and-front-end-integration">#</a></h1>
-<p>we continued our exploration of the API backend and initiated the crucial integration between the front end and back end. Let&rsquo;s dive into the details of our progress:</p>
+  <div class="post-content"><h1 id="progress-in-api-backend-and-front-end-integration">Progress in API Backend and Front-End Integration<a hidden class="anchor" aria-hidden="true" href="#progress-in-api-backend-and-front-end-integration">#</a></h1>
+<p>In my journey into the world of API backend development, I initiated the crucial integration between my front-end and back-end systems.</p>
 <h2 id="api-creation-and-testing">API Creation and Testing<a hidden class="anchor" aria-hidden="true" href="#api-creation-and-testing">#</a></h2>
 <ul>
 <li>
-<p><strong>API Gateway Route for Lambda Function</strong>: We set up an API Gateway route in front of our Lambda function, configuring it to handle POST requests. This step was essential for creating a pathway for communication between our front end and back end.</p>
+<p><strong>API Gateway Route for Lambda Function</strong>: I established an API Gateway route in front of my Lambda function, configuring it to handle POST requests. This setup paved the way for communication between my front-end and back-end components.</p>
 </li>
 <li>
-<p><strong>Internal Testing with API Gateway</strong>: We utilized the API Gateway&rsquo;s internal test console to ensure that our API was functioning as expected. This involved making requests to our Lambda function and verifying that we received the correct responses.</p>
+<p><strong>Internal Testing with API Gateway</strong>: To ensure the functionality of my API, I harnessed the API Gateway&rsquo;s internal test console. I rigorously tested the API by making requests to my Lambda function and confirming that the responses aligned with my expectations.</p>
 </li>
 <li>
-<p><strong>External Testing with Postman</strong>: To expand our testing scope, we tested our API using Postman. This allowed us to verify that our API worked seamlessly when accessed externally.</p>
+<p><strong>External Testing with Postman</strong>: Expanding my testing scope, I employed Postman to test my API externally. This thorough testing approach verified that my API functioned seamlessly when accessed from external sources.</p>
 </li>
 <li>
-<p><strong>Incrementing DynamoDB Count</strong>: We created an API Gateway for Lambda, which invoked the Lambda function to increment the count in our DynamoDB table. We tested this functionality through various means, including browser and Postman, to ensure that the count increased as expected.</p>
+<p><strong>Incrementing DynamoDB Count</strong>: One of my pivotal achievements involved creating an API Gateway for Lambda, enabling it to invoke the Lambda function to increment the count in my DynamoDB table. I conducted comprehensive testing through different channels, including browsers and Postman, to ensure the count incremented as intended.</p>
 </li>
 </ul>
 <h2 id="front-end-and-back-end-integration">Front-End and Back-End Integration<a hidden class="anchor" aria-hidden="true" href="#front-end-and-back-end-integration">#</a></h2>
 <ul>
 <li>
-<p><strong>Connecting Front-End to Back-End</strong>: The next crucial step was integrating the front end (our resume site hosted on S3) with the back end (our API). We aimed to display the visitor count on the homepage of our site.</p>
+<p><strong>Connecting Front-End to Back-End</strong>: The next critical milestone was to establish a seamless connection between my front-end (hosted on S3) and the back-end (my API). My objective was to display the visitor count on the homepage of my website.</p>
 </li>
 <li>
-<p><strong>Automated Tests</strong>: We implemented automated tests to confirm the smooth operation of our integration. These tests were designed to validate that our system always performed as expected.</p>
+<p><strong>Automated Tests</strong>: I implemented automated testing procedures to validate the smooth operation of my integration. These tests ensured that my system consistently performed as expected.</p>
 <ol>
 <li>
-<p><strong>JavaScript Visitor Counter</strong>: We created a JavaScript visitor counter that made HTTP requests to our API Gateway. While this was a straightforward task, we encountered some CORS (Cross-Origin Resource Sharing) issues between the browser and API, which we addressed. The goal was to display the visitor count on our web app.</p>
+<p><strong>JavaScript Visitor Counter</strong>: I developed a JavaScript visitor counter that made HTTP requests to my API Gateway. Although this task was relatively straightforward, I encountered CORS (Cross-Origin Resource Sharing) issues between the browser and API. These issues were successfully addressed to enable the display of visitor counts on my web app.</p>
 </li>
 <li>
-<p><strong>Python Code Testing</strong>: For comprehensive testing, we wrote automated tests against our API. These tests, often referred to as &ldquo;smoke tests&rdquo; or end-to-end tests, verified that our Lambda code worked correctly, permissions and configurations were accurate, and resources were deployed successfully. We employed Cypress, a JavaScript testing framework, to call our API endpoint and perform a series of checks:</p>
-<ul>
-<li>Ensuring the API returned an updated value.</li>
-<li>Verifying that the API correctly updated the database.</li>
-<li>Confirming that the API responded to unexpected input.</li>
-<li>Checking edge cases in our function logic, such as handling uninitialized visitor counts.</li>
-</ul>
+<p><strong>Python Code Testing</strong>: To ensure comprehensive testing, I created automated tests for my API. These tests, often referred to as &ldquo;smoke tests&rdquo; or end-to-end tests, verified the correctness of my Lambda code, the accuracy of permissions and configurations, and the successful deployment of resources. Cypress, a JavaScript testing framework, was utilized to call my API endpoint and perform a series of checks, including verifying updated values, correct database updates, handling of unexpected input, and edge case scenarios.</p>
 </li>
 </ol>
 </li>
 <li>
-<p><strong>Front-End Updates and CI/CD</strong>: We revisited the front end, incorporating it into our GitHub repository and enhancing our CI/CD (Continuous Integration/Continuous Deployment) pipeline. We also updated AWS secret keys for secure access.</p>
+<p><strong>Front-End Updates and CI/CD</strong>: I revisited the front end, integrating it into my GitHub repository and enhancing my CI/CD (Continuous Integration/Continuous Deployment) pipeline. I also reinforced security by updating AWS secret keys for access.</p>
 </li>
 <li>
-<p><strong>Hugo Shortcode for Visitor Count</strong>: To make it easier to display the visitor count on our website, we created a Hugo shortcode and added a new Visitors tab to test shortcodes.</p>
+<p><strong>Hugo Shortcode for Visitor Count</strong>: To simplify the display of the visitor count on my website, I crafted a Hugo shortcode and introduced a new Visitors tab for shortcode testing.</p>
 </li>
 <li>
-<p><strong>Front-End Integration Challenges</strong>: While the front end successfully fetched data from DynamoDB and displayed the visitor count, we encountered issues with updating the count correctly. These issues were primarily related to CORS policy restrictions.</p>
+<p><strong>Front-End Integration Challenges</strong>: While the front end successfully fetched data from DynamoDB and displayed the visitor count, challenges emerged when updating the count accurately. These challenges primarily stemmed from CORS policy restrictions.</p>
 </li>
 <li>
-<p><strong>CORS Policy Adjustment</strong>: To resolve the CORS issue, we made necessary changes to the CORS policy on AWS to allow the website and enable the GET method.</p>
+<p><strong>CORS Policy Adjustment</strong>: To overcome the CORS issue, I made essential changes to the CORS policy on AWS. These adjustments allowed for seamless communication between the website and the API, including GET method access.</p>
 </li>
 </ul>
-<p>With these accomplishments and challenges tackled, we&rsquo;re well on our way to creating a seamless integration between our front-end and back-end systems.</p>
+<p>With these achievements and challenges addressed, I am making substantial progress toward achieving a seamless integration between my front-end and back-end systems.</p>
 
 
   </div>

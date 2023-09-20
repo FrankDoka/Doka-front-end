@@ -10,7 +10,7 @@
 <meta name="description" content="Build a cloud-hosted resume website, showcasing cloud skills.">
 <meta name="author" content="">
 <link rel="canonical" href="https://frankdoka.com/projects/frank-doka-project-1/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.5fb04b9a00004a874ef7105de5fd8c706989be84dfa48d739bfc71f9397a0cfe.css" integrity="sha256-X7BLmgAASodO9xBd5f2McGmJvoTfpI1zm/xx&#43;Tl6DP4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.0f92c65bc46ea69b0cfe5a4f73429f84add04a397b7d0d053fadb3464ea13b78.css" integrity="sha256-D5LGW8RuppsM/lpPc0KfhK3QSjl7fQ0FP62zRk6hO3g=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://frankdoka.com/favicon.ico">
@@ -100,8 +100,8 @@
   "keywords": [
     "AWS"
   ],
-  "articleBody": "Intro The AWS Cloud Resume Challenge is an engaging, hands-on initiative designed to elevate your AWS cloud skills. Participants are challenged to build a professional resume website hosted exclusively on AWS infrastructure. This practical project hones your ability to deploy, configure, and secure AWS services, including EC2, S3,Route 53, Lambda, DynamoDB and much more.\nIt offers an exceptional opportunity to showcase your expertise to prospective employers while developing proficiency in cloud computing. By completing this challenge, you not only bolster your AWS knowledge but also create a tangible asset for your career, making you a more competitive candidate in the ever-evolving field of cloud technology.\nProject Overview This is a high level overview of the steps I took during this challenge:\nHTML Resume: Start by creating a professional resume using HTML.\nCSS Styling: Style your resume using CSS to enhance its visual appeal and formatting.\nStatic Website: Host your resume on a static S3 website. Optionally, consider utilizing an EC2 instance if required.\nHTTPS Security: Ensure the security of your S3 website by enabling HTTPS. Utilize Amazon CloudFront for this purpose.\nCustom DNS: Point a custom DNS name to your CloudFront distribution using Amazon Route 53 for a personalized web address.\nJavaScript Visitor Counter: Implement a visitor counter on your website using JavaScript to display the number of site visitors.\nDatabase for Visitor Counter: Use DynamoDB to store and manage the visitor counter data efficiently, benefiting from its on-demand pricing model.\nAPI Creation: Develop an API that communicates with the database and accepts requests from your web app. AWS API Gateway combined with Lambda can help accomplish this.\nPython Integration: Utilize Python for Lambda functions to enhance the functionality of your serverless architecture.\nTesting: Implement robust testing for your Python code to ensure its reliability and performance.\nInfrastructure as Code (IaC): Configure AWS resources like DynamoDB tables, API Gateway, and Lambda functions using an AWS SAM (Serverless Application Model) template. Deploy these resources effortlessly using AWS SAM CLI.\nSource Control: Employ GitHub for version control, enabling seamless updates to both the back-end API and front-end website.\nCI/CD (Backend): Implement GitHub Actions to automate tests and deployments. Whenever updates are pushed to your SAM template or Python code, tests are executed, and if successful, the SAM app is packaged and deployed to AWS.\nCI/CD (Frontend): Maintain a separate GitHub repository for your website code. Configure GitHub Actions to automatically update the S3 bucket when code changes occur (consider adding logic to invalidate CloudFront cache in code). Avoid committing AWS credentials to your code.\nBlog Post Integration: Include a link to a concise blog post within your resume text. This post should highlight key learnings and experiences gained throughout the project.\n",
-  "wordCount" : "449",
+  "articleBody": "Intro The AWS Cloud Resume Challenge is an engaging, hands-on initiative designed to elevate AWS cloud skills. Participants are challenged to build a professional resume website hosted exclusively on AWS infrastructure. This practical project hones the ability to deploy, configure, and secure AWS services, including EC2, S3,Route 53, Lambda, DynamoDB and much more.\nIt offers an exceptional opportunity to showcase expertise to prospective employers while developing proficiency in cloud computing. Bolster AWS knowledge and create a tangible asset.\nProject Overview This is a high level overview of the steps I took during this challenge:\nHTML Resume: Start by creating a professional resume using HTML.\nCSS Styling: Style resume using CSS to enhance its visual appeal and formatting.\nStatic Website: Host resume on a static S3 website.\nHTTPS Security: Ensure the security of S3 website by enabling HTTPS. Utilize Amazon CloudFront for this purpose.\nCustom DNS: Point a custom DNS name to CloudFront distribution using Amazon Route 53 for a personalized web address.\nJavaScript Visitor Counter: Implement a visitor counter on website using JavaScript to display the number of site visitors.\nDatabase for Visitor Counter: Use DynamoDB to store and manage the visitor counter data efficiently, benefiting from its on-demand pricing model.\nAPI Creation: Develop an API that communicates with the database and accepts requests from web app. AWS API Gateway combined with Lambda can help accomplish this.\nPython Integration: Utilize Python for Lambda functions to enhance the functionality of serverless architecture.\nTesting: Implement robust testing for Python code to ensure its reliability and performance.\nInfrastructure as Code (IaC): Configure AWS resources like DynamoDB tables, API Gateway, and Lambda functions using an AWS SAM (Serverless Application Model) template. Deploy these resources effortlessly using AWS SAM CLI.\nSource Control: Employ GitHub for version control, enabling seamless updates to both the back-end API and front-end website.\nCI/CD (Backend): Implement GitHub Actions to automate tests and deployments. Whenever updates are pushed to SAM template or Python code, tests are executed, and if successful, the SAM app is packaged and deployed to AWS.\nCI/CD (Frontend): Maintain a separate GitHub repository for website code. Configure GitHub Actions to automatically update the S3 bucket when code changes occur (consider adding logic to invalidate CloudFront cache in code). Avoid committing AWS credentials to your code.\nBlog Post Integration: Include a link to a concise blog post within resume text. This post should highlight key learnings and experiences gained throughout the project.\nPhase 1: Creating AWS Accounts and Organization Blog Post: Phase 1\nCreating the initial AWS master account, production and development accounts. Using tools such as Org-Formations to automate the process for version-control and reusability.\nPhase 2: Building the Website Frontend and Hosting it on AWS Blog Post: Phase 2\nInitial design philosophy - using AWS S3 static website hosting and SSL certificates. Leveraging the use of CloudFront distribution for HTTPS access and global distribution. Creating the website code using a combination of HTML, CSS, YAML, JSON and HUGO. Phase 3: Building the Backend using AWS API Gateway, Lambda Functions, DynamoDB Blog Post: Phase 3\nBuilding the backend components starting with the database. Storing data on DynamoDB. Creating lambda function using python to update and return DynamoDB database information. Phase 4: Integrating the Frontend and Backend Blog Post: Phase 4\nIntegrating website frontend and backend services to create an example visitor counter stat. Creating and linking API Gateway to a lambda function.\nPhase 5: Deployment using IaC and using CI/CD workflows Blog Post: Phase 5\nGitHub Actions Workflow: leveraged GitHub Actions to automate CI/CD pipeline. This streamlined the process of deploying updates, ensuring that SAM application package and Python code were properly tested before deployment.\nFuture Plans Coming from a background in IT infrastructure and working on an on-prem environment for many years - completing this challenge has been eye-opening in a few ways. It’s important to adapt to new concepts for working with the cloud. Many design philosophies that I have learned can still be applied in a cloud environment.\nI would like to continue completing more projects to gain more exposure and hands-on experience to the resources and tools that AWS has to offer. I’ll be exploring other areas in the cloud.\n",
+  "wordCount" : "696",
   "inLanguage": "en",
   "image":"https://frankdoka.com/images/cover.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -182,6 +182,11 @@
                 </a>
             </li>
             <li>
+                <a href="https://frankdoka.com/login" title="Login">
+                    <span>Login</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://frankdoka.com/stats" title="Stats">
                     <span>Stats</span>
                 </a>
@@ -213,9 +218,9 @@ September 2023
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="lazy" srcset="https://frankdoka.com/projects/frank-doka-project-1/images/cover_hucc8407e84b61f0c7814480e31691172e_891349_360x0_resize_box_3.png 360w ,https://frankdoka.com/projects/frank-doka-project-1/images/cover_hucc8407e84b61f0c7814480e31691172e_891349_480x0_resize_box_3.png 480w ,https://frankdoka.com/projects/frank-doka-project-1/images/cover_hucc8407e84b61f0c7814480e31691172e_891349_720x0_resize_box_3.png 720w ,https://frankdoka.com/projects/frank-doka-project-1/images/cover.png 966w" 
+        <img loading="lazy" srcset="https://frankdoka.com/projects/frank-doka-project-1/images/cover.png 300w" 
             sizes="(min-width: 768px) 720px, 100vw" src="https://frankdoka.com/projects/frank-doka-project-1/images/cover.png" alt="" 
-            width="966" height="517">
+            width="300" height="161">
         
 </figure><div class="toc">
     <details >
@@ -227,7 +232,19 @@ September 2023
                 <li>
                     <a href="#intro" aria-label="Intro">Intro</a></li>
                 <li>
-                    <a href="#project-overview" aria-label="Project Overview">Project Overview</a>
+                    <a href="#project-overview" aria-label="Project Overview">Project Overview</a></li>
+                <li>
+                    <a href="#phase-1-creating-aws-accounts-and-organization" aria-label="Phase 1: Creating AWS Accounts and Organization">Phase 1: Creating AWS Accounts and Organization</a></li>
+                <li>
+                    <a href="#phase-2-building-the-website-frontend-and-hosting-it-on-aws" aria-label="Phase 2: Building the Website Frontend and Hosting it on AWS">Phase 2: Building the Website Frontend and Hosting it on AWS</a></li>
+                <li>
+                    <a href="#phase-3-building-the-backend-using-aws-api-gateway-lambda-functions-dynamodb" aria-label="Phase 3: Building the Backend using AWS API Gateway, Lambda Functions, DynamoDB">Phase 3: Building the Backend using AWS API Gateway, Lambda Functions, DynamoDB</a></li>
+                <li>
+                    <a href="#phase-4-integrating-the-frontend-and-backend" aria-label="Phase 4: Integrating the Frontend and Backend">Phase 4: Integrating the Frontend and Backend</a></li>
+                <li>
+                    <a href="#phase-5-deployment-using-iac-and-using-cicd-workflows" aria-label="Phase 5: Deployment using IaC and using CI/CD workflows">Phase 5: Deployment using IaC and using CI/CD workflows</a></li>
+                <li>
+                    <a href="#future-plans" aria-label="Future Plans">Future Plans</a>
                 </li>
             </ul>
         </div>
@@ -235,8 +252,8 @@ September 2023
 </div>
 
   <div class="post-content"><h2 id="intro">Intro<a hidden class="anchor" aria-hidden="true" href="#intro">#</a></h2>
-<p>The AWS Cloud Resume Challenge is an engaging, hands-on initiative designed to elevate your AWS cloud skills. Participants are challenged to build a professional resume website hosted exclusively on AWS infrastructure. This practical project hones your ability to deploy, configure, and secure AWS services, including EC2, S3,Route 53, Lambda, DynamoDB and much more.</p>
-<p>It offers an exceptional opportunity to showcase your expertise to prospective employers while developing proficiency in cloud computing. By completing this challenge, you not only bolster your AWS knowledge but also create a tangible asset for your career, making you a more competitive candidate in the ever-evolving field of cloud technology.</p>
+<p>The AWS Cloud Resume Challenge is an engaging, hands-on initiative designed to elevate AWS cloud skills. Participants are challenged to build a professional resume website hosted exclusively on AWS infrastructure. This practical project hones the ability to deploy, configure, and secure AWS services, including EC2, S3,Route 53, Lambda, DynamoDB and much more.</p>
+<p>It offers an exceptional opportunity to showcase expertise to prospective employers while developing proficiency in cloud computing. Bolster AWS knowledge and create a tangible asset.</p>
 <h2 id="project-overview">Project Overview<a hidden class="anchor" aria-hidden="true" href="#project-overview">#</a></h2>
 <p><strong>This is a high level overview of the steps I took during this challenge:</strong></p>
 <ol>
@@ -244,31 +261,31 @@ September 2023
 <p><strong>HTML Resume:</strong> Start by creating a professional resume using HTML.</p>
 </li>
 <li>
-<p><strong>CSS Styling:</strong> Style your resume using CSS to enhance its visual appeal and formatting.</p>
+<p><strong>CSS Styling:</strong> Style resume using CSS to enhance its visual appeal and formatting.</p>
 </li>
 <li>
-<p><strong>Static Website:</strong> Host your resume on a static S3 website. Optionally, consider utilizing an EC2 instance if required.</p>
+<p><strong>Static Website:</strong> Host resume on a static S3 website.</p>
 </li>
 <li>
-<p><strong>HTTPS Security:</strong> Ensure the security of your S3 website by enabling HTTPS. Utilize Amazon CloudFront for this purpose.</p>
+<p><strong>HTTPS Security:</strong> Ensure the security of S3 website by enabling HTTPS. Utilize Amazon CloudFront for this purpose.</p>
 </li>
 <li>
-<p><strong>Custom DNS:</strong> Point a custom DNS name to your CloudFront distribution using Amazon Route 53 for a personalized web address.</p>
+<p><strong>Custom DNS:</strong> Point a custom DNS name to CloudFront distribution using Amazon Route 53 for a personalized web address.</p>
 </li>
 <li>
-<p><strong>JavaScript Visitor Counter:</strong> Implement a visitor counter on your website using JavaScript to display the number of site visitors.</p>
+<p><strong>JavaScript Visitor Counter:</strong> Implement a visitor counter on website using JavaScript to display the number of site visitors.</p>
 </li>
 <li>
 <p><strong>Database for Visitor Counter:</strong> Use DynamoDB to store and manage the visitor counter data efficiently, benefiting from its on-demand pricing model.</p>
 </li>
 <li>
-<p><strong>API Creation:</strong> Develop an API that communicates with the database and accepts requests from your web app. AWS API Gateway combined with Lambda can help accomplish this.</p>
+<p><strong>API Creation:</strong> Develop an API that communicates with the database and accepts requests from web app. AWS API Gateway combined with Lambda can help accomplish this.</p>
 </li>
 <li>
-<p><strong>Python Integration:</strong> Utilize Python for Lambda functions to enhance the functionality of your serverless architecture.</p>
+<p><strong>Python Integration:</strong> Utilize Python for Lambda functions to enhance the functionality of serverless architecture.</p>
 </li>
 <li>
-<p><strong>Testing:</strong> Implement robust testing for your Python code to ensure its reliability and performance.</p>
+<p><strong>Testing:</strong> Implement robust testing for Python code to ensure its reliability and performance.</p>
 </li>
 <li>
 <p><strong>Infrastructure as Code (IaC):</strong> Configure AWS resources like DynamoDB tables, API Gateway, and Lambda functions using an AWS SAM (Serverless Application Model) template. Deploy these resources effortlessly using AWS SAM CLI.</p>
@@ -277,15 +294,49 @@ September 2023
 <p><strong>Source Control:</strong> Employ GitHub for version control, enabling seamless updates to both the back-end API and front-end website.</p>
 </li>
 <li>
-<p><strong>CI/CD (Backend):</strong> Implement GitHub Actions to automate tests and deployments. Whenever updates are pushed to your SAM template or Python code, tests are executed, and if successful, the SAM app is packaged and deployed to AWS.</p>
+<p><strong>CI/CD (Backend):</strong> Implement GitHub Actions to automate tests and deployments. Whenever updates are pushed to SAM template or Python code, tests are executed, and if successful, the SAM app is packaged and deployed to AWS.</p>
 </li>
 <li>
-<p><strong>CI/CD (Frontend):</strong> Maintain a separate GitHub repository for your website code. Configure GitHub Actions to automatically update the S3 bucket when code changes occur (consider adding logic to invalidate CloudFront cache in code). Avoid committing AWS credentials to your code.</p>
+<p><strong>CI/CD (Frontend):</strong> Maintain a separate GitHub repository for website code. Configure GitHub Actions to automatically update the S3 bucket when code changes occur (consider adding logic to invalidate CloudFront cache in code). Avoid committing AWS credentials to your code.</p>
 </li>
 <li>
-<p><strong>Blog Post Integration:</strong> Include a link to a concise blog post within your resume text. This post should highlight key learnings and experiences gained throughout the project.</p>
+<p><strong>Blog Post Integration:</strong> Include a link to a concise blog post within resume text. This post should highlight key learnings and experiences gained throughout the project.</p>
 </li>
 </ol>
+<h2 id="phase-1-creating-aws-accounts-and-organization">Phase 1: Creating AWS Accounts and Organization<a hidden class="anchor" aria-hidden="true" href="#phase-1-creating-aws-accounts-and-organization">#</a></h2>
+<p>Blog Post: <a href="https://frankdoka.com/blog/resume-challenge-1">Phase 1</a></p>
+<p>Creating the initial AWS master account, production and development accounts. Using tools such as Org-Formations to automate the process for version-control and reusability.</p>
+<p><img loading="lazy" src="images/org-formation.png" alt=""  />
+</p>
+<h2 id="phase-2-building-the-website-frontend-and-hosting-it-on-aws">Phase 2: Building the Website Frontend and Hosting it on AWS<a hidden class="anchor" aria-hidden="true" href="#phase-2-building-the-website-frontend-and-hosting-it-on-aws">#</a></h2>
+<p>Blog Post: <a href="https://frankdoka.com/blog/resume-challenge-2">Phase 2</a></p>
+<p>Initial design philosophy - using AWS S3 static website hosting and SSL certificates. Leveraging the use of CloudFront distribution for HTTPS access and global distribution.
+<img loading="lazy" src="images/aws_s3_static_site.png" alt=""  />
+</p>
+<p>Creating the website code using a combination of HTML, CSS, YAML, JSON and HUGO.
+<img loading="lazy" src="images/websitecode.png" alt=""  />
+</p>
+<h2 id="phase-3-building-the-backend-using-aws-api-gateway-lambda-functions-dynamodb">Phase 3: Building the Backend using AWS API Gateway, Lambda Functions, DynamoDB<a hidden class="anchor" aria-hidden="true" href="#phase-3-building-the-backend-using-aws-api-gateway-lambda-functions-dynamodb">#</a></h2>
+<p>Blog Post: <a href="https://frankdoka.com/blog/resume-challenge-3">Phase 3</a></p>
+<p>Building the backend components starting with the database. Storing data on DynamoDB.
+<img loading="lazy" src="images/dynamodb.png" alt=""  />
+</p>
+<p>Creating lambda function using python to update and return DynamoDB database information.
+<img loading="lazy" src="images/lambda.png" alt=""  />
+</p>
+<h2 id="phase-4-integrating-the-frontend-and-backend">Phase 4: Integrating the Frontend and Backend<a hidden class="anchor" aria-hidden="true" href="#phase-4-integrating-the-frontend-and-backend">#</a></h2>
+<p>Blog Post: <a href="https://frankdoka.com/blog/resume-challenge-4">Phase 4</a></p>
+<p>Integrating website frontend and backend services to create an example visitor counter stat. Creating and linking API Gateway to a lambda function.</p>
+<p><img loading="lazy" src="images/apigateway.png" alt=""  />
+</p>
+<h2 id="phase-5-deployment-using-iac-and-using-cicd-workflows">Phase 5: Deployment using IaC and using CI/CD workflows<a hidden class="anchor" aria-hidden="true" href="#phase-5-deployment-using-iac-and-using-cicd-workflows">#</a></h2>
+<p>Blog Post: <a href="https://frankdoka.com/blog/resume-challenge-5">Phase 5</a></p>
+<p>GitHub Actions Workflow: leveraged GitHub Actions to automate CI/CD pipeline. This streamlined the process of deploying updates, ensuring that SAM application package and Python code were properly tested before deployment.</p>
+<p><img loading="lazy" src="images/github.png" alt=""  />
+</p>
+<h2 id="future-plans">Future Plans<a hidden class="anchor" aria-hidden="true" href="#future-plans">#</a></h2>
+<p>Coming from a background in IT infrastructure and working on an on-prem environment for many years - completing this challenge has been eye-opening in a few ways. It&rsquo;s important to adapt to new concepts for working with the cloud. Many design philosophies that I have learned can still be applied in a cloud environment.</p>
+<p>I would like to continue completing more projects to gain more exposure and hands-on experience to the resources and tools that AWS has to offer. I&rsquo;ll be exploring other areas in the cloud.</p>
 
 
   </div>
