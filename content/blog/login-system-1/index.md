@@ -13,3 +13,5 @@ cover:
 -created outline of the project details
 -started working on implementing basic AWS cognito rudimentary login system
 -implemented with GUI and then converted implementation to Terraform
+-tried setting up initial cognito ---> decided to switch to AWS Amplify instead for a better solution
+-spent time setting up react website for initial login system
