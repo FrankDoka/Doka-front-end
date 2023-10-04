@@ -6,8 +6,10 @@ draft: false
 tags: ["AWS"]
 weight: 90
 cover:
-    image: ""
+    image: "images/Frontend.png"
 ---
+
+![Frontend](images/Frontend-large.png)
 
 # Phase 1: Creating Initial Frontend and Login System
 
@@ -19,9 +21,13 @@ Before we dive into the technical details, let's understand the importance of Ph
 
 ## Building the Login System
 
+![Frontend](images/Login-System.png)
+
 To create a secure login system, I turned to [Amazon Cognito](https://aws.amazon.com/cognito/), a comprehensive service that handles user authentication and authorization. With Cognito, we could seamlessly integrate user sign-up, sign-in, and token-based authentication into our application.
 
 ### User Authentication
+
+![Alt text](images/Cognito.png)
 
 I implemented a Login system frontend UI component using [React](https://reactjs.org/), a versatile and popular JavaScript library for building user interfaces. React, combined with [AWS Amplify](https://aws.amazon.com/amplify/), allowed me to create a smooth and interactive user experience.
 

@@ -6,7 +6,7 @@ draft: false
 tags: ["AWS"]
 weight: 88
 cover:
-    image: ""
+    image: "images/Diagram.png"
 ---
 
 # Phase 3: Integrating Backend Database with AWS Polly and S3 for Storage of Media Files
@@ -23,6 +23,8 @@ At the heart of my text-to-speech conversion process lies a Lambda function that
 
 ### Language Translation with Amazon Translate
 
+![Lambda](images/Lambda-Code-Large.png)
+
 Before invoking Amazon Polly, my Lambda function undertakes a crucial task: ensuring that the user's text is translated into their preferred language using [Amazon Translate](https://aws.amazon.com/translate/). This step is pivotal in guaranteeing that the resulting speech output aligns with the user's language choice.
 
 ### Unleashing Amazon Polly's Potential
@@ -30,6 +32,8 @@ Before invoking Amazon Polly, my Lambda function undertakes a crucial task: ensu
 [Amazon Polly](https://aws.amazon.com/polly/) is the linchpin of my text-to-speech conversion. With Polly, I can generate highly realistic speech from translated text. Polly offers a wealth of voices and customization options, enabling precise tailoring of the voice output to cater to each user's unique preferences.
 
 ### Robust Audio Storage in Amazon S3
+
+![S3](images/s3-storage-large.png)
 
 Once the transformation from text to speech is complete, I require a dependable repository for storing my audio files. [Amazon S3](https://aws.amazon.com/s3/) emerges as the ideal solution. Each audio file finds its dedicated home within an S3 bucket, meticulously organized based on user ID and timestamp. This structure ensures not only easy access but also impeccable file organization.
 

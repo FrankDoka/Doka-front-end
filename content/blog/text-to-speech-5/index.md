@@ -6,7 +6,7 @@ draft: false
 tags: ["AWS"]
 weight: 86
 cover:
-    image: ""
+    image: "images/Terraform.png"
 ---
 
 # Phase 5: Using Infrastructure as Code (IaC) to Streamline Application

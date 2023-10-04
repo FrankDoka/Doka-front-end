@@ -6,8 +6,9 @@ draft: false
 tags: ["AWS"]
 weight: 89
 cover:
-    image: ""
+    image: "images/API-Gateway.png"
 ---
+
 
 # Phase 2: Initial Serverless Application - Uploading User Input and Database Storage
 
@@ -19,6 +20,8 @@ To make the Text to Speech Translator truly functional, I needed a robust backen
 
 ### API Gateway Integration
 
+![API-Gateway](images/API-Gateway-Large.png)
+
 I started by creating an API Gateway to handle incoming requests from our frontend. When a user submits text for translation, the POST request is sent to the API Gateway. But how do we ensure only authorized users can access our APIs?
 
 Enter [Amazon Cognito](https://aws.amazon.com/cognito/) from Phase 1. The API Gateway is integrated with the Cognito user pool, ensuring that only users with valid JWT tokens can access our endpoints. Security is paramount!
@@ -28,6 +31,8 @@ Enter [Amazon Cognito](https://aws.amazon.com/cognito/) from Phase 1. The API Ga
 Once the API Gateway receives user input, it triggers AWS Lambda functions. These serverless functions process the incoming data, including the user's text, user ID, language selection, and more. Lambda is incredibly powerful for this purpose, as it can scale automatically to handle varying workloads.
 
 ### Data Storage in DynamoDB
+
+![API-Gateway](images/DynamoDB-Large.png)
 
 I needed a reliable and scalable database to store user-related data, and [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) fits the bill. In DynamoDB, crucial information is stored such as user IDs, submitted text, translation status, and the S3 media location where the audio files will be stored.
 
