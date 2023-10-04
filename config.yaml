@@ -46,7 +46,7 @@ params:
   profileMode:
     enabled: true
     title: "Frank Doka"
-    subtitle: "<br>Hello! Welcome to my website.<br><br>This is a place where I write about my learnings and insights into technologies.<br>My interests include cloud engineering, DevOps and software development.<p><br>You can find more details about me below."  
+    subtitle: "<br>Hello! Welcome to my website.<br><br>This is a place where I write about my learnings and insights into technologies.<br>My interests include cloud engineering, DevOps and software development.<p><br>You can find more details about me below.<br><br>"  
     imageUrl: "home/Untitled.png"
     imageWidth: 300
     imageHeight: 290
@@ -64,10 +64,8 @@ params:
     hiddenInSingle: false # hide on single page
 
   socialIcons:
-    #- name: "email"
-     # url: "mailto:fdoka00@gmail.com"
-   # - name: "github"
-     # url: ""
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/frank-doka-64951828b/"
    # - name: "cv"
      # url: ""
 
