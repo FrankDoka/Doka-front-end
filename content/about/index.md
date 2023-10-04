@@ -8,7 +8,7 @@ cover:
 ---
 My name is Frank Doka. I am currently located in New York City.
 
-These days, I’m working with different cloud technologies and integrations such as AWS, containers, CI/CD and using infra-as-code tools such as Terraform.
+These days, I’m working with different cloud technologies and integrations such as AWS, Azure, containers, CI/CD and using infra-as-code tools such as Terraform.
 
 One of my passions is Systems Engineering. Finding the best way to improve reliability and scalability of various technologies. Streamlining the process of pushing code into production.
 
