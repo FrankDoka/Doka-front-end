@@ -19,7 +19,9 @@ cover:
 
 - Monitor, deploy and maintain server and desktop workstation patches and upgrades. Manage patching and maintenance activities through WSUS and SCCM. <br><br>
 
-- Design, build, implement and maintain Windows Active Directory and Group Policy Objects configuration. <br><br>
+- Implemented and maintained Azure Active Directory configuration for 10,000+ users and devices. <br><br>
+
+- Collaborated with cloud teams to integrate on-premises user directories to Azure Active Directory, enabling Single Sign-On (SSO) and enhancing security with Multi-Factor Authentication (MFA). <br><br>
 
 - Troubleshoot application systems and provide end-user support and problem resolution.<br><br>
 

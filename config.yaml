@@ -54,7 +54,7 @@ params:
         - name: About Me
           url: /about
      #   url: ""
-
+     
   # List View
   hideDescriptionInList: false
 
