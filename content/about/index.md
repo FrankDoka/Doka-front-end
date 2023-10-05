@@ -16,6 +16,6 @@ I have a keen interest in the field of Automation and applying it into the work 
 
 I have over 6 years of System Engineering experience in the public sector working for the City of New York as a Systems Administrator. I am looking to advance my career and skillset into the cloud. I want to incorporate my existing skills and knowledge to provide positive growth to the companies I work with, as well as my own personal growth.
 
-In my spare time, I enjoy working out and working on game development. Working out helps me to relieve the stress of the day and clears my mind, allowing me to focus. Game Developoment is a fun way for me to advance my programming skills.
+In my spare time, I enjoy working out and working on game development. Working out helps me to relieve the stress of the day and clears my mind, allowing me to focus. Game development is a fun way for me to advance my programming skills.
 
 Thanks for reading!
