@@ -115,12 +115,16 @@ For the frontend of the application, I employed React, a versatile component-bas
 - Ensuring proper authorization and user-friendly data retrieval.
 - Provision of user IDs to users for data retrieval.
 
-### Phase 5: Using Infrastructure as Code (IaC) to Streamline Application
+### Phase 5: Streamlining with Infrastructure as Code (IaC)
 
 [Phase 5](https://frankdoka.com/blog/text-to-speech-5)
 
-- Transition of backend resources to Infrastructure as Code (IaC) using Terraform.
-- Streamlining of deployment and management for improved scalability and reproducibility.
+- Terraform Integration: Achieved consistent deployments, minimizing manual configurations and errors.
+- Efficient Provisioning: Terraform's modularity allowed for reusable components, achieving cost            efficiencies with on-demand environment provisioning.
+- Enhanced Security & Automation: Embedded security practices in configurations and seamlessly integrated Terraform with CI/CD pipelines.
+
+This transition to IaC notably streamlined deployments, bolstered security, and set the stage for scalable future endeavors.
+
 
 ## Final Thoughts
 

@@ -21,7 +21,7 @@ One of the key advantages of Infrastructure as Code is its ability to streamline
 
 - **Reproducibility**: I can easily recreate my entire AWS infrastructure in a consistent and predictable manner. This is invaluable for scaling my application as needed.
 
-- **Version Control**: My infrastructure code can be versioned, allowing me to track changes and collaborate with team members effectively.
+- **Version Control**: My infrastructure code can be versioned, allowing me to track changes and collaborate with team members if needed.
 
 - **Scalability**: With Terraform, I can quickly scale my resources up or down to meet the demands of my application without manual intervention.
 
@@ -31,15 +31,29 @@ One of the key advantages of Infrastructure as Code is its ability to streamline
 
 In this phase, I'll start by defining my AWS resources, such as Lambda functions, API Gateway, DynamoDB tables, and more, using Terraform's declarative syntax. I'll create Terraform configuration files that specify the desired state of my infrastructure.
 
+![Lambda](images/tf-files.png)
+
+![Lambda](images/code-example.png)
+
+
+
 ### Terraform Workflow
 
 1. **Initializing**: I'll use the `terraform init` command to initialize my Terraform project.
 
 2. **Planning**: The `terraform plan` command will generate an execution plan, showing me what changes will be applied to my infrastructure.
 
+![Lambda](images/terraform-plan.png)
+
 3. **Applying**: I'll use `terraform apply` to apply the changes, creating or updating resources as necessary.
 
+![Lambda](images/terraform-apply.png)
+
 4. **Version Control**: I'll commit my Terraform configuration files to version control, ensuring that my infrastructure changes are tracked and documented.
+
+5. **DELETION**: If needed, I have the option to delete all of the resources I created. Terraform handles the cleanup.
+
+![Lambda](images/terraform-destroy.png)
 
 ## Wrapping Up
 
