@@ -24,6 +24,3 @@ cover:
 - Troubleshoot application systems and provide end-user support and problem resolution.<br><br>
 
 - Led a team in designing and implemented custom OS imaging solutions as part of a large-scale migration of 10,000+ devices from Windows 7 to Windows 10 and Windows 11. <br><br>
-
-
-![](images/img1.png#center)

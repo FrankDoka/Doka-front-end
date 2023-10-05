@@ -12,7 +12,7 @@ cover:
 ### Description
 
 - Provided IT technical support and remote assistance to end-users for computer operational and various
-peripheral equipment, resolving 1500+ support tickets<br><br>
+peripheral equipment, resolving 1,500+ support tickets<br><br>
 
 - Assigned and delegated various computer operational work to other technical units and ensured satisfactory
 completion of tasks.<br><br>

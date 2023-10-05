@@ -16,7 +16,7 @@ The AWS Cloud Resume Challenge is an engaging, hands-on initiative designed to e
 It offers an exceptional opportunity to showcase expertise to prospective employers while developing proficiency in cloud computing. Bolster AWS knowledge and create a tangible asset.
 
 ## Project Overview
-**This is a high level overview of the steps I took during this challenge:**
+**This is a high-level overview of the steps I took during this challenge:**
 
 1. **HTML Resume:** Start by creating a professional resume using HTML.
 
@@ -40,7 +40,7 @@ It offers an exceptional opportunity to showcase expertise to prospective employ
 
 11. **Infrastructure as Code (IaC):** Configure AWS resources like DynamoDB tables, API Gateway, and Lambda functions using an AWS SAM (Serverless Application Model) template. Deploy these resources effortlessly using AWS SAM CLI.
 
-12. **Source Control:** Employ GitHub for version control, enabling seamless updates to both the back-end API and front-end website.
+12. **Source Control:** Employ GitHub for version control, enabling seamless updates to both the backend API and frontend website.
 
 13. **CI/CD (Backend):** Implement GitHub Actions to automate tests and deployments. Whenever updates are pushed to SAM template or Python code, tests are executed, and if successful, the SAM app is packaged and deployed to AWS.
 
@@ -89,6 +89,6 @@ GitHub Actions Workflow: leveraged GitHub Actions to automate CI/CD pipeline. Th
 
 ## Future Plans
 
-Coming from a background in IT infrastructure and working on an on-prem environment for many years - completing this challenge has been eye-opening in a few ways. It's important to adapt to new concepts for working with the cloud. Many design philosophies that I have learned can still be applied in a cloud environment. 
+Coming from a background in IT infrastructure and working on an on-prem environment for many years, completing this challenge has been eye-opening in a few ways. It's important to adapt to new concepts for working with the cloud. Many design philosophies that I have learned can still be applied in a cloud environment. 
 
 I would like to continue completing more projects to gain more exposure and hands-on experience to the resources and tools that AWS has to offer. I'll be exploring other areas in the cloud.
