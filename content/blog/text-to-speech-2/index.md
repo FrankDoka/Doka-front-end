@@ -3,7 +3,7 @@ title: "Text to Spech Phase 2 - Uploading User Input and Database Storage"
 description: "Eplore how to handle user input, securely store data, and set the stage for translation and conversion."
 dateString: September 2023
 draft: false
-tags: ["AWS"]
+tags: ["API Gateway","Lambda","SNS"]
 weight: 89
 cover:
     image: "images/API-Gateway.png"

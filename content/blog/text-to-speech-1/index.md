@@ -3,7 +3,7 @@ title: "Text to Speech Phase 1- Initial Frontend and Login System"
 description: "Creating the frontend and implementing a secure login system."
 dateString: September 2023
 draft: false
-tags: ["AWS"]
+tags: ["React","Cognito","Amplify"]
 weight: 90
 cover:
     image: "images/Frontend.png"
