@@ -12,7 +12,7 @@ These days, I’m working with different cloud technologies and integrations suc
 
 One of my passions is Systems Engineering. I enjoy finding the best way to improve the reliability and scalability of various technologies, as well as streamlining the process of pushing code into production.
 
-I have a keen interest in the field of Automation and applying it into the work I produce. Creating high quality and reusuable code through scripts written in various languages is something that I strive to achieve.
+I have a keen interest in the field of Automation and applying it into the work I produce. Creating high quality and reusable code through scripts written in various languages is something that I strive to achieve.
 
 I have over 6 years of System Engineering experience in the public sector working for the City of New York as a Systems Administrator. I am looking to advance my career and skillset into the cloud. I want to incorporate my existing skills and knowledge to provide positive growth to the companies I work with, as well as my own personal growth.
 
