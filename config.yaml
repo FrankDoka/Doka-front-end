@@ -46,7 +46,7 @@ params:
   profileMode:
     enabled: true
     title: "Frank Doka"
-    subtitle: "<br>Greetings!<br><br>Welcome to my digital corner where I explore the vast world of technology. I share insights and lessons that have shaped my journey.<br><br>My interests include cloud engineering, DevOps and software development.<p><br>Dive in to discover more about me and my tech adventures.<br><br>"  
+    subtitle: "<br>Greetings!<br><br>Welcome to my website where I explore the vast world of technology. I share insights and lessons that have shaped my journey.<br><br>My interests include cloud engineering, DevOps and software development.<p><br>Dive in to discover more about me and my tech adventures.<br><br>"  
     imageUrl: "home/Untitled.png"
     imageWidth: 300
     imageHeight: 290
