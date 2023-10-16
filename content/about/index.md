@@ -6,9 +6,9 @@ weight: 102
 cover:
     image: "images/cover.jpg"
 ---
-Hello! Nice to meet you.
+Greetings! I'm a Systems Engineer with a fervor for cloud technologies and automation.
 
-These days, I’m working with different cloud technologies and integrations such as AWS, Azure, containers, CI/CD and using infra-as-code tools such as Terraform.
+Currently I’m working with different cloud technologies and integrations such as AWS, Azure, containers, CI/CD and using infra-as-code tools such as Terraform.
 
 One of my passions is Systems Engineering. I enjoy finding the best way to improve the reliability and scalability of various technologies, as well as streamlining the process of pushing code into production.
 

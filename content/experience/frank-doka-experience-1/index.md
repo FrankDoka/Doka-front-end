@@ -1,28 +1,20 @@
 ---
 title: "NYC Department of Correction"
-dateString: "2016-2022"
+date: "2016-2022"
 draft: false
 tags: ["Powershell", "SCCM", "Virtual", "Active Directory", "Windows", "Linux"]
 showToc: false
 weight: 301
 cover:
-    image: "images/latest.png"
---- 
+  image: "images/latest.png"
+---
 
-### Description
+## Description
 
-- Develop and lead large multifunctional system activities including managing, creating and deploying application programs and packages with various technologies such as Microsoft System Center Configuration Manager, Microsoft Deployment Toolkit, Docker.<br><br>
-
-- Conduct application testing to validate codebase and remediate issues discovered through performance and security testing.<br><br>
-
-- Install, configure, troubleshoot, document and proactively maintain Windows and Linux physical and virtual servers, systems and applications using VMWare and Hyper-V.<br><br>
-
-- Monitor, deploy and maintain server and desktop workstation patches and upgrades. Manage patching and maintenance activities through WSUS and SCCM. <br><br>
-
-- Implemented and maintained Azure Active Directory configuration for 10,000+ users and devices. <br><br>
-
-- Collaborated with cloud teams to integrate on-premises user directories to Azure Active Directory, enabling Single Sign-On (SSO) and enhancing security with Multi-Factor Authentication (MFA). <br><br>
-
-- Troubleshoot application systems and provide end-user support and problem resolution.<br><br>
-
-- Led a team in designing and implemented custom OS imaging solutions as part of a large-scale migration of 10,000+ devices from Windows 7 to Windows 10 and Windows 11. <br><br>
+- Orchestrated the deployment of 200+ applications utilizing Microsoft Endpoint Configuration Manager.<br><br>
+- Implemented and automated patch management for 7,000+ devices using Microsoft SCCM.<br><br>
+- Achieved 99% uptime for 350+ servers utilizing VMware and Hyper-V.<br><br>
+- Integrated on-prem Active Directory with Azure Active Directory for 15,000+ users and devices.<br><br>
+- Led the Inmate Tracking System project, achieving a 30% boost in operational efficiency by fortifying jail facility security and modernizing inmate management processes.<br><br>
+- Collaborated with Lenovo and Dell on automated PC Provisioning, reducing deployment time by 80%.<br><br>
+- Designed and implemented custom OS imaging solutions as part of a large-scale migration of 5,000+ devices from Windows XP, 7 to Windows 10 and Windows 11. Coordinated with Desktop Support team.<br><br>
