@@ -14,10 +14,13 @@ cover:
 ## Objective
 To automate the provisioning and deployment of a web server within a Docker container on AWS. This project will incorporate tools and services such as **AWS, Terraform, Ansible, Jenkins, Docker, and OpenSSL**.
 
-## Application Architecture
+## Application Architecture and overview
 
-1. Set up an NGINX server to serve a static webpage, with OpenSSL for security.
+1. Set up an NGINX server to serve a static webpage using OpenSSL for security.
 2. Containerize the NGINX server using Docker.
+3. Incorporate the user of Terraform to set up AWS infrastructure - providing scalability and reusability.
+4. Setup configuration management using Ansible to manage EC2 instances
+5. Create Jenkins pipeline to enhance automation for building, testing, deployment and streamlining updates.
 
 ## Project Phases
 
@@ -37,4 +40,4 @@ To automate the provisioning and deployment of a web server within a Docker cont
     - Craft and launch a Jenkins pipeline to automate the build, test, and deployment processes, ensuring consistent and streamlined updates.
 
 ## Conclusion
-I demonstrated the synergy of automation and cloud solutions by integrating pivotal tools like Docker, Jenkins, Terraform, and Ansible to create a robust CI/CD pipeline. Ansible, with its dynamic inventory, further strengthened our deployment process, ensuring configuration consistency across environments.
+I demonstrated the synergy of automation and cloud solutions by integrating pivotal tools like Docker, Jenkins, Terraform, and Ansible to create a robust CI/CD pipeline. Ansible, with its dynamic inventory, further strengthened our deployment process, ensuring configuration consistency. The Jenkins pipeline enhanced the automation for deploying and also updating the web server.

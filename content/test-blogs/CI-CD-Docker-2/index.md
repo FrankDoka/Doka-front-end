@@ -26,11 +26,11 @@ Objective: To bundle the static website with NGINX and OpenSSL inside a Docker c
 
 [Docker-File](images/docker-file.png)
 
-5. **Pushing the Docker Image**: The Dockerfile is pushed to our repo.
+5. **Pushing the Docker Image**: The Dockerfile is pushed to the repo.
 
 [Docker-File](images/docker-hub.png)
 
 
 ## **Conclusion**
 
-At this stage, we have successfully containerized the static website using Docker. With NGINX as the web server and OpenSSL providing SSL functionalities, the site is ready for the upcomming stages. In the next phase, Terraform will be used to create the EC2 instance which will host the Docker container.
+At this stage, I have successfully containerized the static website using Docker. With NGINX as the web server and OpenSSL providing SSL functionalities, the site is ready for the upcomming stages. In the next phase, Terraform will be used to create the EC2 instance which will host the Docker container.

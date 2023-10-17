@@ -20,14 +20,14 @@ Objective: To gain a foundational understanding of the project's architecture an
 
 ## **Toolset Introduction**
 
+- **Docker**: A container platform that enables application encapsulation, ensuring a consistent environment from development to production.
 - **Terraform**: An Infrastructure as Code (IaC) tool, Terraform allows provisioning and management of cloud resources using a script-driven approach.
 - **Ansible**: A versatile automation tool employed for configuration management, application deployment, and task automation.
 - **Jenkins**: As the CI/CD engine, Jenkins will automate significant parts of the development process, ensuring seamless and efficient deployments.
-- **Docker**: A container platform that enables application encapsulation, ensuring a consistent environment from development to production.
 
 ## **Project Hierarchy**
 [Hierarchy](images/project_directory.png)
 
 ## **Conclusion**
 
-In the first Phase we went over the application architecture and the toolset that will be used in the remaining phases of the project. In the next phase, we will delve into the creation of the Docker image and integrating NGINX with OpenSSL for our static website.
+In this Phase the application architecture and the toolset that will be used is discussed. The next phase will be about the creation of the Docker image and integrating NGINX with OpenSSL for the static website.
