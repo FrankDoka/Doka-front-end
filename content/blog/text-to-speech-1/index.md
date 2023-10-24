@@ -4,7 +4,7 @@ description: "Creating the frontend and implementing a secure login system."
 dateString: September 2023
 draft: false
 tags: ["React","Cognito","Amplify"]
-weight: 90
+weight: 89
 cover:
     image: "images/Frontend.png"
 ---

@@ -1,10 +1,10 @@
 ---
 title: "CI/CD App - Phase 3: Infrastructure as Code with Terraform"
 description: "Setting up the AWS infrastructure using Terraform for our Docker container deployment."
-dateString: October 2023
+dateString: September 2023
 draft: false
 tags: ["AWS", "Terraform", "Infrastructure", "IaC"]
-weight: 78
+weight: 92
 cover:
     image: ""
 ---

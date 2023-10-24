@@ -1,10 +1,10 @@
 ---
 title: "CI/CD App - Phase 1: Understanding the Application Architecture and Tools"
 description: "Delving into the application's design and introducing the tools that will be used."
-dateString: October 2023
+dateString: September 2023
 draft: false
 tags: ["Design", "NGINX", "Tools", "Automation", "CI/CD", "Docker"]
-weight: 80
+weight: 94
 cover:
     image: ""
 ---

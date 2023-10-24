@@ -1,10 +1,10 @@
 ---
 title: "CI/CD App - Phase 2: Creating our Docker image"
 description: "Bundling our application into a Docker container and deploying it to our Repo."
-dateString: October 2023
+dateString: September 2023
 draft: false
 tags: ["NGINX", "OpenSSL", "Docker", "Static Site", "Containerization"]
-weight: 79
+weight: 93
 cover:
     image: ""
 ---

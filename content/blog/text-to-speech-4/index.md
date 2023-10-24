@@ -4,7 +4,7 @@ description: "Putting the Project together with frontend integration and retriev
 dateString: September 2023
 draft: false
 tags: ["AWS"]
-weight: 87
+weight: 86
 cover:
     image: ""
 ---

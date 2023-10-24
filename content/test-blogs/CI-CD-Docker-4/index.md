@@ -1,10 +1,10 @@
 ---
 title: "CI/CD App - Phase 4: Ansible and Dynamic Inventory"
 description: "Configuration management and orchestration with Ansible. Integration of dynamic inventory for proficient AWS EC2 management."
-dateString: October 2023
+dateString: September 2023
 draft: false
 tags: ["AWS", "Ansible", "Configuration Management", "Dynamic Inventory"]
-weight: 77
+weight: 91
 cover:
     image: ""
 ---

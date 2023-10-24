@@ -1,10 +1,10 @@
 ---
 title: "Project: CI / CD Pipeline for a Web Application on a Docker Container Hosted in AWS"
 description: "Automate the provisioning and deployment of a scalable and fault-tolerant web application using a CI/CD pipeline."
-dateString: October 2023
+dateString: September 2023
 draft: false
 tags: ["AWS", "NGINX", "Automation", "CI/CD", "Terraform", "Docker", "Jenkins", "Ansible"]
-weight: 100
+weight: 101
 cover:
     image: ""
 ---

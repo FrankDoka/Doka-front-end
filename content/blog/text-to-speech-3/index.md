@@ -4,7 +4,7 @@ description: "Integrating Backend Database with AWS Polly and S3 for Storage of 
 dateString: September 2023
 draft: false
 tags: ["Polly","Translate","Lambda"]
-weight: 88
+weight: 87
 cover:
     image: "images/Diagram.png"
 ---

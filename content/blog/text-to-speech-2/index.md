@@ -4,7 +4,7 @@ description: "Eplore how to handle user input, securely store data, and set the 
 dateString: September 2023
 draft: false
 tags: ["API Gateway","Lambda","SNS"]
-weight: 89
+weight: 88
 cover:
     image: "images/API-Gateway.png"
 ---

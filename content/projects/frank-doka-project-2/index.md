@@ -4,7 +4,7 @@ description: "Built an authorization based cloud-hosted serverless application t
 dateString: September 2023
 draft: false
 tags: ["AWS","Polly","Cognito","React","IaC"]
-weight: 101
+weight: 100
 cover:
     image: "images/text-to-speech.jpg"
 ---
