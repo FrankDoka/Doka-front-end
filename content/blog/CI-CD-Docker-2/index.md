@@ -16,19 +16,19 @@ Objective: To bundle the static website with NGINX and OpenSSL inside a Docker c
 ## **Setting Up NGINX with OpenSSL in Docker**
 
 1. **Project Initialization**: Setting up directories for the NGINX and the required files. 
-[Directories](images/initial-directories.png)
+![Directories](images/initial-directories.png)
    
 2. **Static Web Content**: The simple static webpage is created using HTML and CSS. Focus remains on the containerization process rather than front-end design, so the project makes use of a basic index page and css for deployment.
 
-3. **Configuring NGINX**: Configure NGINX to serve the static site, with added configurations for SSL using OpenSSL. The basic configuration can be found here: [NGINX Configuration](https://raw.githubusercontent.com/nginx/nginx/master/conf/nginx.conf)
+3. **Configuring NGINX**: Configure NGINX to serve the static site, with added configurations for SSL using OpenSSL. The basic configuration can be found here: ![NGINX Configuration](https://raw.githubusercontent.com/nginx/nginx/master/conf/nginx.conf)
 
 4. **Docker Integration**: A Dockerfile, which details how the container should be built, is crafted. This file instructs Docker to set up NGINX and incorporate our self-signed SSL certificate. The Docker image is created which encapsulates the web server and configuration.
 
-[Docker-File](images/docker-file.png)
+![Docker-File](images/docker-file.png)
 
 5. **Pushing the Docker Image**: The Dockerfile is pushed to the repo.
 
-[Docker-File](images/docker-hub.png)
+![Docker-File](images/docker-hub.png)
 
 
 ## **Conclusion**

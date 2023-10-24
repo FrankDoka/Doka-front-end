@@ -26,7 +26,7 @@ Objective: To gain a foundational understanding of the project's architecture an
 - **Jenkins**: As the CI/CD engine, Jenkins will automate significant parts of the development process, ensuring seamless and efficient deployments.
 
 ## **Project Hierarchy**
-[Hierarchy](images/project_directory.png)
+![Hierarchy](images/project_directory.png)
 
 ## **Conclusion**
 

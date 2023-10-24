@@ -19,11 +19,11 @@ Terraform offers a systematic and script-driven approach to manage and provision
 
 1. **Setting Up Terraform**: Create a main.tf and a variables.tf to hold the Terraform configuration information. Since a limited amount of resources are being used, all definitions can be placed in our main.tf
 
-[Terraform Main.tf](images/terraform-main.png)
+![Terraform Main.tf](images/terraform-main.png)
 
 I will use the variables.tf file to connect our project with the Ansibile Dynamic Inventory.
 
-[Terraform Variables](images/terraform-variables.png)
+![Terraform Variables](images/terraform-variables.png)
 
 ## **Conclusion**
 

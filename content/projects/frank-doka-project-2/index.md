@@ -1,6 +1,6 @@
 ---
 title: "Text to Speech Serverless Application"
-description: "Built an authorization based cloud-hosted serverless application that translates text and converts it into speech"
+description: "Built an authorization based cloud-hosted serverless application that translates text and converts it into speech."
 dateString: September 2023
 draft: false
 tags: ["AWS","Polly","Cognito","React","IaC"]
