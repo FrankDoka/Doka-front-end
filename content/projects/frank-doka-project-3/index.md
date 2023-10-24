@@ -6,7 +6,7 @@ draft: false
 tags: ["AWS", "NGINX", "Automation", "CI/CD", "Terraform", "Docker", "Jenkins", "Ansible"]
 weight: 101
 cover:
-    image: ""
+    image: "images/jenkins-ansible.png"
 ---
 
 # Continuous Deployment Pipeline for a Web Application on Docker Container Hosted in AWS
