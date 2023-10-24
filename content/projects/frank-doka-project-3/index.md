@@ -25,7 +25,7 @@ To automate the provisioning and deployment of a web server within a Docker cont
 ## Project Phases
 
 1. **[Understanding the Application and Tools](https://frankdoka.com/blog/ci-cd-docker-1)**
-    - Delve into the application's design and get acquainted with the tools that will be employed.
+    - Delve into the application's design and get acquainted with the tools that will be employed
 
 2. **[NGINX, OpenSSL, and the Static Site in Docker](https://frankdoka.com/blog/ci-cd-docker-2)**
     - Bundle NGINX, OpenSSL, and the static site into a Docker container.
