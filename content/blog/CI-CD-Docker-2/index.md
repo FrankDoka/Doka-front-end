@@ -30,7 +30,17 @@ Objective: To bundle the static website with NGINX and OpenSSL inside a Docker c
 
 ![Docker-File](images/docker-hub.png)
 
+6. **Testing**
+
+Test the Docker Image locally by running it and connecting to our localhost to check the certificate and make sure the NGINX server is up and running.
+
+![Certificate](images/certificate.png)
+
+![Testing](images/testing.png)
+
 
 ## **Conclusion**
 
-At this stage, I have successfully containerized the static website using Docker. With NGINX as the web server and OpenSSL providing SSL functionalities, the site is ready for the upcomming stages. In the next phase, Terraform will be used to create the EC2 instance which will host the Docker container.
+At this stage, I have successfully containerized the static website using Docker. With NGINX as the web server and OpenSSL providing SSL functionalities, the site is ready for the upcomming stages. I tested to make sure the Docker Image works correctly and the self-signed certificate has the correct information.
+
+In the next phase, Terraform will be used to use IaC methodology in order to create the EC2 instance which will host the Docker container.

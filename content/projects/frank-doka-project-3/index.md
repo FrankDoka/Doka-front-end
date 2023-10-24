@@ -1,5 +1,5 @@
 ---
-title: "Project: CI / CD Pipeline for a Web Application on a Docker Container Hosted in AWS"
+title: "CI / CD Pipeline for a Web Application on a Docker Container Hosted in AWS"
 description: "Automate the provisioning and deployment of a scalable and fault-tolerant web application using a CI/CD pipeline."
 dateString: September 2023
 draft: false
@@ -19,7 +19,7 @@ To automate the provisioning and deployment of a web server within a Docker cont
 1. Set up an NGINX server to serve a static webpage using OpenSSL for security.
 2. Containerize the NGINX server using Docker.
 3. Incorporate the user of Terraform to set up AWS infrastructure - providing scalability and reusability.
-4. Setup configuration management using Ansible to manage EC2 instances
+4. Setup configuration management using Ansible to manage our server configuration. Using dynamic inventory to manage our EC2 instances.
 5. Create Jenkins pipeline to enhance automation for building, testing, deployment and streamlining updates.
 
 ## Project Phases
@@ -33,10 +33,10 @@ To automate the provisioning and deployment of a web server within a Docker cont
 3. **[Infrastructure as Code with Terraform](https://frankdoka.com/blog/CI-CD-Docker-3)**
     - Use Terraform to set up the AWS infrastructure, providing a foundation for the Docker container deployment.
 
-4. **[Ansible and Dynamic Inventory](https://frankdoka.com/blog/CI-CD-Docker-4)** - Coming Soon
-    - Harness Ansible for configuration management and orchestration. Use dynamic inventory to efficiently manage AWS EC2 instances.
+4. **[Ansible and Dynamic Inventory](https://frankdoka.com/blog/CI-CD-Docker-4)**
+    - Harness Ansible for configuration management of our server and orchestration. Use dynamic inventory to efficiently manage AWS EC2 instances.
 
-5. **[Automated Deployments with Jenkins Pipeline](https://frankdoka.com/blog/CI-CD-Docker-5)** - Coming Soon
+5. **[Automated Deployments with Jenkins Pipeline](https://frankdoka.com/blog/CI-CD-Docker-5)**
     - Craft and launch a Jenkins pipeline to automate the build, test, and deployment processes, ensuring consistent and streamlined updates.
 
 ## Conclusion

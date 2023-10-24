@@ -15,9 +15,9 @@ Objective: To make use of Terraform's Infrastructure as Code (IaC) capabilities 
 
 ## **Terraform Configuration**
 
-Terraform offers a systematic and script-driven approach to manage and provision cloud resources. The configuration will primarily focus on deploying an EC2 instance configured specifically for this project. I will be using variable names and collaborating with Ansibile and Dynamic Inventory to further automate the configuration.
+Terraform offers a systematic and script-driven approach to manage and provision cloud resources. The configuration will primarily focus on deploying an EC2 instance configured specifically for this project. I will be using variable names and collaborating with Ansibile and Dynamic Inventory to further automate the configuration in a future phase.
 
-1. **Setting Up Terraform**: Create a main.tf and a variables.tf to hold the Terraform configuration information. Since a limited amount of resources are being used, all definitions can be placed in our main.tf
+1. **Setting Up Terraform**: Create a main.tf and a variables.tf to hold the Terraform configuration information. Since a limited amount of resources are being used, all definitions can be placed in our main.tf.
 
 ![Terraform Main.tf](images/terraform-main.png)
 
