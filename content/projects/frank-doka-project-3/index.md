@@ -1,5 +1,5 @@
 ---
-title: "CI / CD Pipeline for a Web Application on a Docker Container Hosted in AWS"
+title: "CI / CD Pipeline for NGINX Server on a Docker Container Hosted in AWS"
 description: "Automate the provisioning and deployment of a scalable and fault-tolerant web application using a CI/CD pipeline."
 dateString: September 2023
 draft: false
@@ -24,19 +24,19 @@ To automate the provisioning and deployment of a web server within a Docker cont
 
 ## Project Phases
 
-1. **[Understanding the Application and Tools](https://frankdoka.com/blog/CI-CD-Docker-1)**
+1. **[Understanding the Application and Tools](https://frankdoka.com/blog/ci-cd-docker-1)**
     - Delve into the application's design and get acquainted with the tools that will be employed.
 
-2. **[NGINX, OpenSSL, and the Static Site in Docker](https://frankdoka.com/blog/CI-CD-Docker-2)**
+2. **[NGINX, OpenSSL, and the Static Site in Docker](https://frankdoka.com/blog/ci-cd-docker-2)**
     - Bundle NGINX, OpenSSL, and the static site into a Docker container.
 
-3. **[Infrastructure as Code with Terraform](https://frankdoka.com/blog/CI-CD-Docker-3)**
+3. **[Infrastructure as Code with Terraform](https://frankdoka.com/blog/ci-cd-docker-3)**
     - Use Terraform to set up the AWS infrastructure, providing a foundation for the Docker container deployment.
 
-4. **[Ansible and Dynamic Inventory](https://frankdoka.com/blog/CI-CD-Docker-4)**
+4. **[Ansible and Dynamic Inventory](https://frankdoka.com/blog/ci-cd-docker-4)**
     - Harness Ansible for configuration management of our server and orchestration. Use dynamic inventory to efficiently manage AWS EC2 instances.
 
-5. **[Automated Deployments with Jenkins Pipeline](https://frankdoka.com/blog/CI-CD-Docker-5)**
+5. **[Automated Deployments with Jenkins Pipeline](https://frankdoka.com/blog/ci-cd-docker-5)**
     - Craft and launch a Jenkins pipeline to automate the build, test, and deployment processes, ensuring consistent and streamlined updates.
 
 ## Conclusion

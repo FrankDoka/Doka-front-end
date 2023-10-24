@@ -1,5 +1,5 @@
 ---
-title: "CI/CD App - Phase 2: Creating our Docker image"
+title: "Creating Docker image"
 description: "Bundling our application into a Docker container and deploying it to our Repo."
 dateString: September 2023
 draft: false
