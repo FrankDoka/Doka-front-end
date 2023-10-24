@@ -33,10 +33,10 @@ To automate the provisioning and deployment of a web server within a Docker cont
 3. **[Infrastructure as Code with Terraform](https://frankdoka.com/blog/CI-CD-Docker-3)**
     - Use Terraform to set up the AWS infrastructure, providing a foundation for the Docker container deployment.
 
-4. **[Ansible and Dynamic Inventory](https://frankdoka.com/blog/CI-CD-Docker-4)**
+4. **[Ansible and Dynamic Inventory](https://frankdoka.com/blog/CI-CD-Docker-4)** - Coming Soon
     - Harness Ansible for configuration management and orchestration. Use dynamic inventory to efficiently manage AWS EC2 instances.
 
-5. **[Automated Deployments with Jenkins Pipeline](https://frankdoka.com/blog/CI-CD-Docker-5)**
+5. **[Automated Deployments with Jenkins Pipeline](https://frankdoka.com/blog/CI-CD-Docker-5)** - Coming Soon
     - Craft and launch a Jenkins pipeline to automate the build, test, and deployment processes, ensuring consistent and streamlined updates.
 
 ## Conclusion
