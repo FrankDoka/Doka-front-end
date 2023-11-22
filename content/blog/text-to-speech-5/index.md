@@ -25,7 +25,7 @@ One of the key advantages of Infrastructure as Code is its ability to streamline
 
 - **Scalability**: With Terraform, I can quickly scale my resources up or down to meet the demands of my application without manual intervention.
 
-- **Cost Efficiency**: IaC helps me optimize resource provisioning, ensuring I only use what I need, which can lead to cost savings.
+- **Cost Efficiency**: IaC helps me optimize resource provisioning, ensuring I only use what I need, which can lead to a large sum of cost savings.
 
 ## Transitioning to Terraform
 
