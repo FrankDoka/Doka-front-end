@@ -9,7 +9,7 @@ cover:
     image: ""
 ---
 
-# Azure Kubernetes Web Store - Part 1
+# Azure Web Store - Part 1
 
 This is the first blog post in the creation of building a Web Store on Azure using various technologies such as Docker and Kubernetes. We will first discuss initial design considerations and focus on setting up the environment and creating the Docker Images for the different sections of the Web Store.
 
@@ -27,7 +27,7 @@ We will integrate Azure, Kubernetes, and Docker to create a powerful and scalabl
  Power App
  Regression Suite
 
-## Part 1: Initiating Design - Environment Setup and Docker Image Building
+## Part 1: Initiating Design
 
 This foundational phase sets the groundwork for the project.
 
@@ -65,22 +65,13 @@ The code for the Docker Images will be available on the Github Project post at t
 
 ##### Build and Run the Graceful Healing Path Service Docker Image
 
-We can run and deploy the Docker Images locally, outside of Azure, in order to build and test our Images. We are also able to Administer our Azure Kubernetes Cluster. Below is an example of how to get the Application Service Docker Image running.
+We can run and deploy the Docker Images locally, outside of Azure, in order to build and test our Images. We are also able to Administer our Azure Kubernetes Cluster. Below is a few example commands of how to get the Application Service Docker Image running.
 
-# Navigate to application directory
-cd gracefulhealingpath/gracefulhealingpathservice
-
-# Set up a local bridge network for Docker container communication
-docker network create gracefulhealingpathbridge
-
-# Build the Docker Image
-docker build -t gracefulhealingpathpetservice .
-
-# Runa the Graceful Healing Path Service
-docker run --rm --net gracefulhealingpathbridge --name gracefulhealingpathservice -p 8081:8081 -e GRACEFULHEALINGPATHSERVICE_SERVER_PORT=8081 -d gracefulhealingpathservice:latest
-
-# Test that it is running sucessfully
-Navigate to http://localhost:8081 to test that it is working correctly.
+Navigate to directory - cd gracefulhealingpath/gracefulhealingpathservice
+Setup a local bridge for communication - docker network create gracefulhealingpathbridge
+Build the docker Image - docker build -t gracefulhealingpathpetservice .
+Run the Service - docker run --rm --net gracefulhealingpathbridge --name gracefulhealingpathservice -p 8081:8081 -e GRACEFULHEALINGPATHSERVICE_SERVER_PORT=8081 -d gracefulhealingpathservice:latest
+Test the Service - Navigate to http://localhost:8081 to test that it is working correctly.
 Use the command "docker ps" which should show one container running and the image command used to start the application.
 
 ##### Repeat the Process for the other components
