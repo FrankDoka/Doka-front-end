@@ -1,7 +1,7 @@
 ---
 title: "Text to Speech Phase 3 -  Integrating Backend"
 description: "Integrating Backend Database with AWS Polly and S3 for Storage of Media Files."
-dateString: September 2023
+dateString: October 2023
 draft: false
 tags: ["Polly","Translate","Lambda"]
 weight: 87

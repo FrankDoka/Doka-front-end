@@ -1,7 +1,7 @@
 ---
 title: "Text to Speech Phase 5 - Incorporating IaC"
 description: "Using Infrastructure as Code (IaC) to Streamline Application."
-dateString: September 2023
+dateString: October 2023
 draft: false
 tags: ["Terraform"]
 weight: 85
