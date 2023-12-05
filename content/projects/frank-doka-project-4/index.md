@@ -11,7 +11,7 @@ cover:
 
 # Azure Web Store
 
-Built a comprehensive N-Tiered Azure architecture with functional code, CI/CD, and various services for exploring Azure technologies. The project, centered around a Web Store application, provides hands-on experience with Azure services, demonstrating best practices in cloud development.
+Built a comprehensive Azure architecture with functional code, CI/CD, and various services for exploring Azure technologies. The project, centered around a Web Store application, provides hands-on experience with Azure services, demonstrating best practices in cloud development.
 
 ## Overview:
 

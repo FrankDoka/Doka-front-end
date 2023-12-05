@@ -34,7 +34,7 @@ This foundational phase sets the groundwork for the project.
 ### Key Objectives:
 
 1. **Initial Design:**
-   - Define architectural considerations for the Graceful Healing Path Store on Azure Kubernetes.
+   - Define architectural considerations for the Web Store on Azure Kubernetes.
    - Outline the structure and components for optimal performance.
 
 2. **Environment Setup:**
@@ -63,22 +63,22 @@ The code for the Docker Images will be available on the Github Project post at t
 - Log in to your GitHub account and create a new repository for the application.
 - Setup SSH keys so that you can update your repository while you locally work on your application.
 
-##### Build and Run the Graceful Healing Path Service Docker Image
+##### Build and Run the Service Docker Image
 
 We can run and deploy the Docker Images locally, outside of Azure, in order to build and test our Images. We are also able to Administer our Azure Kubernetes Cluster. Below is a few example commands of how to get the Application Service Docker Image running.
 
-Navigate to directory - cd gracefulhealingpath/gracefulhealingpathservice
-Setup a local bridge for communication - docker network create gracefulhealingpathbridge
-Build the docker Image - docker build -t gracefulhealingpathpetservice .
-Run the Service - docker run --rm --net gracefulhealingpathbridge --name gracefulhealingpathservice -p 8081:8081 -e GRACEFULHEALINGPATHSERVICE_SERVER_PORT=8081 -d gracefulhealingpathservice:latest
+Navigate to directory - cd directory
+Setup a local bridge for communication - docker network create webappbridge
+Build the docker Image - docker build -t webappservice .
+Run the Service - docker run --rm --net webappbridge --name webappservice -p 8081:8081 -e WEBAPPHSERVICE_SERVER_PORT=8081 -d webappservice:latest
 Test the Service - Navigate to http://localhost:8081 to test that it is working correctly.
 Use the command "docker ps" which should show one container running and the image command used to start the application.
 
 ##### Repeat the Process for the other components
 Repeat the process for our other components - make sure when you run them to change the port's that you are using.
-    *Graceful Healing Path Product Service Docker Image
-    *Graceful Healing Path Order Service Docker Image
-    *Graceful healing Path App Docker Image
+    *Product Service Docker Image
+    *Order Service Docker Image
+    *App Docker Image
 
 When you are finished, you can use the following command to kill the running containers : 
 docker kill $(docker ps -q)
