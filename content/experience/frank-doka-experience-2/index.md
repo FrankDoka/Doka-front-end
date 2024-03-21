@@ -1,6 +1,6 @@
 ---
 title: "NYC Police Department"
-dateString: "2015-2016"
+dateString:
 draft: false
 tags: ["Support", "Virtual", "Active Directory"]
 showToc: false

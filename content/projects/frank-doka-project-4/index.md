@@ -1,7 +1,7 @@
 ---
 title: "Azure Web Store deployed on Kubernetes"
 description: "Create and Automate a N-Tiered Azure architecture using Kubernetes and CI/CD methodologies"
-dateString: November 2023
+dateString: 
 draft: false
 tags: ["Azure", "Kubernetes", "Automation", "CI/CD", "API Management", "Docker"]
 weight: 100

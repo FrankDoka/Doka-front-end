@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure as Code with Terraform"
 description: "Setting up the AWS infrastructure using Terraform for our Docker container deployment."
-dateString: September 2023
+dateString: 
 draft: false
 tags: ["AWS", "Terraform", "Infrastructure", "IaC"]
 weight: 92

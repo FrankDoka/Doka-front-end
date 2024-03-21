@@ -1,7 +1,7 @@
 ---
 title: "Deploying and Automation with Jenkins"
 description: "Jenkins and its role in automating our application using a Jenkins Pipeline"
-dateString: September 2023
+dateString: 
 draft: false
 tags: ["AWS", "Jenkins"]
 weight: 90

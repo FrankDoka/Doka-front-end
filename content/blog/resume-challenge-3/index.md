@@ -1,7 +1,7 @@
 ---
 title: "Backend technologies and APIs"
 description: "Creating backend foundation using AWS Services such as API Gateways, Lambda, and DynamoDB. Exploring IAM Permissions more indepth."
-dateString: August 2023
+dateString: 
 draft: false
 tags: ["AWS"]
 weight: 97

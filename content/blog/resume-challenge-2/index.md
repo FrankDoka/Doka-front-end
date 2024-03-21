@@ -1,7 +1,7 @@
 ---
 title: "Building the Frontend"
 description: "Building the frontend of the website using HTML,CSS,Javascript and Hugo. Hosting the website on AWS using S3, Cloudfront and Route 53."
-dateString: August 2023
+dateString: 
 draft: false
 tags: ["AWS"]
 weight: 98

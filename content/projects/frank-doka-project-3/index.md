@@ -1,7 +1,7 @@
 ---
 title: "CI / CD Pipeline for NGINX Server on a Docker Container Hosted in AWS"
 description: "Automate the provisioning and deployment of a scalable and fault-tolerant web application using a CI/CD pipeline."
-dateString: September 2023
+dateString: 
 draft: false
 tags: ["AWS", "NGINX", "Automation", "CI/CD", "Terraform", "Docker", "Jenkins", "Ansible"]
 weight: 101

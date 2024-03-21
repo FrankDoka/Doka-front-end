@@ -1,7 +1,7 @@
 ---
 title: "AWS Accounts and Organization"
 description: "Creating AWS Accounts and Organization. Using AWS Services such as CodeCommit, CodePipeline and tools such as ORG-FORMATIONS"
-dateString: August 2023
+dateString: 
 draft: false
 tags: ["AWS"]
 weight: 99

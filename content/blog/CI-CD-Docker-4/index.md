@@ -1,7 +1,7 @@
 ---
 title: "Ansible and Dynamic Inventory"
 description: "Configuration management and orchestration with Ansible. Integration of dynamic inventory for proficient AWS EC2 management."
-dateString: September 2023
+dateString: 
 draft: false
 tags: ["AWS", "Ansible", "Configuration Management", "Dynamic Inventory"]
 weight: 91

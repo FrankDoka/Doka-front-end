@@ -1,7 +1,7 @@
 ---
 title: "Azure Kubernetes Web Store - Part 1"
 description: "Initiating Design: Environment Setup and Docker Image Building"
-dateString: November 2023
+dateString: 
 draft: false
 tags: ["Azure", "Kubernetes", "Docker", "CI/CD", "Pipeline"]
 weight: 84

@@ -1,7 +1,7 @@
 ---
 title: "IaC, CI/CD Enhancements, Smoke testing"
 description: "Diving into tools such as Terraform to utilize IaC. Enhancing CI/CD pipeline and testing."
-dateString: August 2023
+dateString: 
 draft: false
 tags: ["AWS"]
 weight: 95

@@ -1,7 +1,7 @@
 ---
 title: "Text to Speech Phase 4 - Frontend Integration and Retrieval"
 description: "Putting the Project together with frontend integration and retrieval."
-dateString: October 2023
+dateString: 
 draft: false
 tags: ["AWS"]
 weight: 86

@@ -1,7 +1,7 @@
 ---
 title: "Creating Docker image"
 description: "Bundling our application into a Docker container and deploying it to our Repo."
-dateString: September 2023
+dateString: 
 draft: false
 tags: ["NGINX", "OpenSSL", "Docker", "Static Site", "Containerization"]
 weight: 93

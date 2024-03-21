@@ -1,7 +1,7 @@
 ---
 title: "API Backend continuation and Frontend integration"
 description: "Integrating website frontend and backend services to create an example visitor counter stat."
-dateString: August 2023
+dateString: 
 draft: false
 tags: ["AWS"]
 weight: 96

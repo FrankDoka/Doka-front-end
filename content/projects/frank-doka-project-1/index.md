@@ -1,7 +1,7 @@
 ---
 title: "Cloud Resume Challenge"
 description: "Build a cloud-hosted resume website, showcasing cloud skills."
-dateString: August 2023
+dateString: 
 draft: false
 tags: ["AWS"]
 weight: 201
